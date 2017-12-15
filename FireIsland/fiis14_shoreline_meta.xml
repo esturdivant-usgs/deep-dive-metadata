@@ -8,8 +8,8 @@
 				<origin>Sara L. Zeigler</origin>
 				<origin>Benjamin T. Gutierrez</origin>
 				<pubdate>2018</pubdate>
-				<title>Supplemented NASC transects – regularly-spaced shore-normal line segments produced for GIS-based geomorphology sampling – Fire Island, 2014</title>
-				<geoform>vector</geoform>
+				<title>Barrier island shoreline polygon at MHW (seaward face) and MTL (inland face) – Fire Island, 2014</title>
+				<geoform>Vector Digital Data Set (Polygon)</geoform>
 				<serinfo>
 					<sername>Data Release</sername>
 					<issue>XXX</issue>
@@ -44,16 +44,16 @@
 				Understanding the potential effects of sea level rise (SLR) on coastal landforms and the species and habitats they support will be critical for crafting approaches that balance the needs of both humans and native species. Given this increasing need to develop the capability to forecast sea-level rise impacts on barrier islands in the near- and long-term, we are developing Bayesian networks to evaluate and to forecast the cascading effects of sea level rise on shoreline change, barrier island state, and piping plover habitat availability. We use publicly available data products, i.e. lidar, orthophotography, and geomorphic feature sets derived from those, to extract metrics of barrier island characteristics at consistent sampling distances for incorporation into these models and into the training data used to parameterize these models. This data release contains the resulting metrics of barrier island geomorphology and spatial data layers of habitat characteristics that are input to Bayesian networks for piping plover habitat availability and barrier island geomorphology.  These datasets and models are being developed at a range of coastal sites along the northeastern coast of the United States.  This work is one component of a larger research and management program that seeks to understand and sustain ecological value, ecosystem services, and habitat suitability of beaches in the face of storm impacts, climate change, and sea-level rise. These data were produced for the barrier islands corresponding to the Fire Island National Seashore, NY.
 			</abstract>
 			<purpose>
-				These data provide transects spaced every 50-m alongshore for the barrier island. They were used as the base sampling unit to compile and sample barrier island characteristics for use in Bayesian networks to model geomorphology and shorebird nesting habitat. Attributes of the 5-m points provided in the larger work can be aggregated by transect and joined to these features by the field sort_ID.
+				The shoreline was automatically delineated to use in the creation of other files in this set of data. In particular, it was used as the time-specific outline of the island to clip the 5-m points, measure the island width, the distance to inlet from each transect, and the position of MHW to measure beach width. It was used as the analysis boundary for the Bayesian network input data, for clipping the raster surfaces.
 			</purpose>
 		</descript>
 		<timeperd>
 			<timeinfo>
 				<sngdate>
-					<caldate>2018</caldate>
+					<caldate>2014</caldate>
 				</sngdate>
 			</timeinfo>
-			<current>Publication date</current>
+			<current>ground condition</current>
 		</timeperd>
 		<status>
 			<progress>Complete</progress>
@@ -61,10 +61,10 @@
 		</status>
 		<spdom>
 			<bounding>
-        <westbc>-73.321110271</westbc>
-        <eastbc>-72.707623224</eastbc>
-        <northbc>40.807356977</northbc>
-        <southbc>40.608143257</southbc>
+        <westbc>-73.315993279</westbc>
+        <eastbc>-72.629036809</eastbc>
+        <northbc>40.812058789</northbc>
+        <southbc>40.608468573</southbc>
       </bounding>
 		</spdom>
 		<keywords>
@@ -124,7 +124,7 @@
 							<cntper>Emily Sturdivant</cntper>
 							<cntorg>U.S. Geological Survey</cntorg>
 					</cntperp>
-					<cntpos>GIS Specialist</cntpos>
+					<cntpos>Geographer</cntpos>
 					<cntaddr>
 							<addrtype>mailing and physical</addrtype>
 							<address>384 Woods Hole Road</address>
@@ -140,10 +140,9 @@
 		</ptcontac>
 		<browse>
 			<browsen>XXXX.png</browsen>
-			<browsed>Browse graphic of the supplemented NASC transects labeled by sort_ID.</browsed>
+			<browsed>Browse graphic of the shoreline polygon overlaid on the DEM used to create it.</browsed>
 			<browset>PNG</browset>
 		</browse>
-		<natvform Sync="TRUE">CSV</natvform>
 		<native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.5 (Build 6491) Service Pack N/A (Build N/A)</native>
 		<crossref>
 			<citeinfo>
@@ -165,95 +164,80 @@
 		</crossref>
 		<crossref>
 			<citeinfo>
-				<origin>Emily A. Himmelstoss</origin>
-				<origin>Meredith Kratzmann</origin>
-				<origin>Cheryl Hapke</origin>
-				<origin>E. Robert Thieler</origin>
-				<origin>Jeffrey List</origin>
-				<pubdate>2010</pubdate>
-				<title>The National Assessment of Shoreline Change: A GIS Compilation of Vector Shorelines and Associated Shoreline Change Data for the New England and Mid-Atlantic Coasts</title>
+				<origin>Kathryn M. Weber</origin>
+				<origin>Jeffrey H. List</origin>
+				<origin>Karen L. M. Morgan</origin>
+				<pubdate>2005</pubdate>
+				<title>An Operational Mean High Water Datum for Determination of Shoreline Position from Topographic Lidar Data</title>
 				<serinfo>
 					<sername>Open-File Report</sername>
-					<issue>2010-1119</issue>
+					<issue>2005-1027</issue>
 				</serinfo>
 				<pubinfo>
 					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
 					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
 				</pubinfo>
-				<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+				<onlink>http://pubs.usgs.gov/of/2005/1027/</onlink>
 			</citeinfo>
 		</crossref>
 	</idinfo>
 	<dataqual>
 		<attracc>
-			<attraccr>The attribute sort_ID was symbolized to verify that every transect had a unique value and those values progressed sequentially along the shoreline (ArcGIS Pro version 2.0).</attraccr>
+			<attraccr>The interior of the polygons represent the area that is above-water majority of the time. The outlines were compared to ancillary datasets, such as elevation and orthoimagery. The delineation is highly generalized and should not be used for any purpose that requires precision or accuracy, such as navigation or engineering.</attraccr>
 		</attracc>
-		<logic>This shapefile consists of line data compiled from multiple sources. No checks for topological consistency in addition to those described in the Attribute Accuracy Report were performed on these data.</logic>
-		<complete>Transects were extended approximately 3000 m inland from their original inland vertex (NASC transects). Curves in the generalized shoreline may cause transects to be spaced more or less densely than the standard 50 m alongshore, especially along the inland side of the study site. In some of these sites, transects overlap. In such cases, the full extended transect length was preserved allowing overlap so that each transect could represent the full width of the island. </complete>
+		<logic>This shapefile consists of polygon data produced from elevation data and tidal datum values through an automated process described below. It was not checked for topological consistency.</logic>
+		<complete>The polygons present a generalized shoreline. The generalization was performed with cartography tools in ArcGIS 10.3. Polygons within 30 m of each other were aggregated and land masses and polygon holes less than 300 m2 were eliminated (Aggregate Polygons tool in Cartography toolbox). </complete>
 		<posacc>
 			<horizpa>
-				<horizpar>N/A</horizpar>
+				<horizpar>The horizontal positional accuracy is assumed to be correct because of the processes used for georeferencing the source data. </horizpar>
 			</horizpa>
 			<vertacc>
 				<vertaccr>N/A</vertaccr>
 			</vertacc>
 		</posacc>
 		<lineage>
+			<srcinfo><srccite><citeinfo><origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Geodetic Survey (NGS), Remote Sensing Division</origin><origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM)</origin><pubdate>20151220</pubdate><title>2014 NOAA Post-Sandy Topobathymetric LiDAR: Void DEMs South Carolina to New York</title><geoform>map</geoform> <pubinfo> <pubplace>Silver Spring, MD</pubplace><publish>NOAA's Ocean Service, National Geodetic Survey (NGS)</publish> </pubinfo> <onlink>https://coast.noaa.gov/dataviewer/#/lidar/search/where:ID=4967</onlink> <onlink>https://coast.noaa.gov/htdata/raster2/elevation/Post_Sandy_DEM_2014_4967</onlink> <onlink>https://coast.noaa.gov/dataviewer</onlink></citeinfo></srccite><srcscale>24000</srcscale><typesrc>digital data</typesrc> <srctime><timeinfo><rngdates><begdate>201311</begdate><enddate>201406</enddate></rngdates></timeinfo> <srccurr>ground condition</srccurr></srctime><srccitea>DEM</srccitea><srccontr>Elevation</srccontr></srcinfo>
 			<srcinfo>
-        <srccite>
-					<citeinfo>
-						<origin>U.S. Geological Survey</origin>
-						<pubdate>2010</pubdate>
-						<title>LongIsland_LT.shp - Digital Shoreline Analysis System version 4.1 Transects with Long-Term Rate Calculations for the Long Island region from Montauk Point to the entrance of Raritan Bay, New York</title>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>Open-File Report</sername>
-							<issue>2010-1119</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
-							<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
-						</pubinfo>
-						<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
-						<lworkcit>
-							<citeinfo>
-								<origin>Emily A. Himmelstoss</origin>
-								<origin>Meredith G. Kratzmann</origin>
-								<origin>Cheryl J. Hapke</origin>
-								<origin>E. Robert Thieler</origin>
-								<origin>Jeffrey List</origin>
-								<pubdate>2010</pubdate>
-								<title>National Assessment of Shoreline Change: A GIS Compilation of Vector Shorelines and Associated Shoreline Change Data for the New England and Mid-Atlantic Coasts</title>
-								<serinfo>
-									<sername>Open-File Report</sername>
-									<issue>2010-1119</issue>
-								</serinfo>
-								<pubinfo>
-									<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
-									<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
-								</pubinfo>
-								<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
-							</citeinfo>
-						</lworkcit>
-					</citeinfo>
-        </srccite>
-        <srcscale>24000</srcscale>
-        <typesrc>digital data</typesrc>
-        <srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>2010</caldate>
-						</sngdate>
-					</timeinfo>
-          <srccurr>publication date</srccurr>
-        </srctime>
-        <srccitea>NASC transects</srccitea>
-        <srccontr>Shore-normal transects with long term shoreline change rates</srccontr>
-      </srcinfo>
+			<srccite>
+				<citeinfo>
+					<origin>Kara S. Doran</origin>
+					<origin>Joseph W. Long</origin>
+					<origin>Hilary F. Stockdon</origin>
+					<origin>Justin J. Birchler</origin>
+					<origin>Matthew W. Hardy</origin>
+					<origin>Karen L.M. Morgan</origin>
+					<origin>Owen Brenner</origin>
+					<pubdate>20170609</pubdate>
+					<title>2014 Post-Hurricane Sandy SC to NY NOAA NGS Lidar-Derived Dune Crest, Toe and Shoreline</title>
+					<geoform>tabular digital data</geoform>
+					<serinfo>
+						<sername>U.S. Geological Survey Data Release</sername>
+						<issue>doi:10.5066/F7GF0S0Z</issue>
+					</serinfo>
+					<pubinfo>
+						<pubplace>St. Petersburg, FL</pubplace>
+						<publish>U.S. Geological Survey</publish>
+					</pubinfo>
+					<onlink>https://doi.org/10.5066/F7GF0S0Z</onlink>
+				</citeinfo>
+			</srccite>
+			<typesrc>digital data</typesrc>
+			<srctime>
+				<timeinfo>
+					<rngdates>
+						<begdate>20140108</begdate>
+						<enddate>20140727</enddate>
+					</rngdates>
+				</timeinfo>
+				<srccurr>ground condition</srccurr>
+			</srctime>
+			<srccitea>geomorphic features</srccitea>
+			<srccontr>MHW shoreline and dune positions</srccontr>
+		</srcinfo>
 			<procstep>
-				<procdesc>Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code on code.usgs.gov (XXXX).
+				<procdesc>Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code on code.usgs.gov (xxxx).
 
-We first extend the NASC transects by 3000 m toward the estuarine side to cover the whole island width. We perform this using python (v3) with the modules arcpy and collections. The process checks the projection system of the files. It uses the coordinates of the last two vertices of each feature and calculates a new second coordinate at a specified distance (3000 m) along the prolongation of the line from the first coordinate. Next, we manually add transects to fill alongshore gaps greater than 50 m and assign ID values that order the transects consecutively along the shoreline. The additional transects do not include values for shoreline change rates and are populated with fill values (-99999).
+The shoreline is produced through a combination of the DEM and the shoreline points in the geomorphic features. First, we derive MTL and MHW contour polygons from the DEM. Those polygons are combined to produce the full shoreline, which is considered to fall at MHW on the oceanside and MTL on the bayside (to include partially submerged wetland). Finally, the output full shoreline polygon is snapped to the shoreline points from the geomorphic features dataset anywhere the two datasets don't already match and as long as as they are within 25 m of each other.
 </procdesc>
 				<procdate>20170224</procdate>
 				<proccont>
@@ -283,8 +267,8 @@ We first extend the NASC transects by 3000 m toward the estuarine side to cover 
 		<direct>Vector</direct>
     <ptvctinf>
       <sdtsterm>
-        <sdtstype>String</sdtstype>
-        <ptvctcnt>1102</ptvctcnt>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>3</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
 	</spdoinfo>
@@ -304,7 +288,7 @@ We first extend the NASC transects by 3000 m toward the estuarine side to cover 
             </transmer>
           </utm>
         </gridsys>
-        <planci>
+				<planci>
           <plance>coordinate pair</plance>
           <coordrep>
             <absres>0.6096</absres>
@@ -322,79 +306,42 @@ We first extend the NASC transects by 3000 m toward the estuarine side to cover 
     </horizsys>
 	</spref>
 	<eainfo>
-		<detailed>
-			<enttyp>
+    <detailed>
+      <enttyp>
         <enttypl>Attribute Table</enttypl>
         <enttypd>Table containing attribute information associated with the data set.</enttypd>
         <enttypds>Producer defined</enttypds>
       </enttyp>
-			<attr>
-        <attrlabl>sort_ID</attrlabl>
-        <attrdef>Unique identifier that orders transects sequentially along the shoreline.</attrdef>
-        <attrdefs>Producer defined</attrdefs>
-        <attrdomv>
-          <rdom>
-            <rdommin>1</rdommin>
-            <rdommax>1102</rdommax>
-            <attrunit>integer</attrunit>
-          </rdom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>TRANSECTID</attrlabl>
-        <attrdef>Transect identifier corresponding to that used in NASC transects.</attrdef>
-        <attrdefs>Himmelstoss and others (2010)</attrdefs>
-        <attrdomv>
-          <rdom>
-            <rdommin>-99999</rdommin>
-            <rdommax>4049</rdommax>
-            <attrunit>integer</attrunit>
-          </rdom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>TRANSORDER</attrlabl>
-        <attrdef>Transect identifier corresponding to that used in NASC transects.</attrdef>
-        <attrdefs>Himmelstoss and others (2010)</attrdefs>
-        <attrdomv>
-          <rdom>
-            <rdommin>-99999</rdommin>
-            <rdommax>2057</rdommax>
-            <attrunit>integer</attrunit>
-          </rdom>
-        </attrdomv>
-      </attr>
       <attr>
         <attrlabl>Shape_Leng</attrlabl>
-        <attrdef>Length of polyline.</attrdef>
+        <attrdef>Length of the feature.</attrdef>
         <attrdefs>Producer defined</attrdefs>
         <attrdomv>
           <rdom>
-            <rdommin>384.12429769</rdommin>
-            <rdommax>3356.36578918</rdommax>
+            <rdommin>31917.526278</rdommin>
+            <rdommax>92312.5963859</rdommax>
             <attrunit>meters</attrunit>
           </rdom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>DD_ID</attrlabl>
-        <attrdef>Identifier that orders transects sequentially along the shoreline. Unique to the project, see Zeigler and others, 2018.</attrdef>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of the feature.</attrdef>
         <attrdefs>Producer defined</attrdefs>
         <attrdomv>
           <rdom>
-            <rdommin>10001</rdommin>
-            <rdommax>11102</rdommax>
-            <attrunit>integer</attrunit>
+            <rdommin>4081522.29883</rdommin>
+            <rdommax>15452666.9803</rdommax>
+            <attrunit>square meters</attrunit>
           </rdom>
         </attrdomv>
       </attr>
-		</detailed>
+    </detailed>
 		<overview>
-			<eaover>Geometry of shore-normal transects used as the base for sampling barrier island geomorphology. Various ID fields are included to permit later joining.
-fill value for all: -99999.</eaover>
+			<eaover>Geometry values for the shoreline polygons.</eaover>
 			<eadetcit>Methods Open-File Report by Zeigler and others 2018</eadetcit>
 		</overview>
-	</eainfo>
+  </eainfo>
 	<distinfo>
 		<distrib>
 			<cntinfo>
@@ -417,31 +364,31 @@ fill value for all: -99999.</eaover>
 		<distliab>Neither the U.S. Government, the Department of the Interior, nor the USGS, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data or related materials. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
 		<stdorder>
 			<digform>
-				<digtinfo>
-					<!-- <formname>Vector Digital Data (polylines)</formname> -->
-		      <formname>Shapefile</formname>
-		      <formvern>ArcGIS 10.5</formvern>
-		      <formspec>Esri point shapefile</formspec>
-		      <formcont>These files (.cpg, .dbf, .prj, .sbn, .sbx, .shp, .shp.xml, and .shx) are a collection of files with a common filename prefix and must be downloaded and stored in the same directory. Together they are the components of the shapefile and include FGDC compliant metadata.</formcont>
-					<filedec>no compression applied</filedec>
-					<transize>0.067</transize>
-				</digtinfo>
-				<digtopt>
-					<onlinopt>
-						<computer>
-							<networka>
-			         <networkr>XXX</networkr>
-			         <networkr>XXX</networkr>
-			         <networkr>XXX</networkr>
-			        </networka>
-						</computer>
-						<accinstr>The first link is to the page containing the data. The second is a direct link to download a zipped file with the data. And the final link is to the publication landing page.</accinstr>
-					</onlinopt>
-				</digtopt>
+					<digtinfo>
+		          <formname>Vector Digital Data Set (Polygon)</formname>
+		          <formvern>ArcGIS 10.5</formvern>
+		          <formspec>Esri polygon shapefile</formspec>
+		          <formcont>These files (.cpg, .dbf, .prj, .sbn, .sbx, .shp, .shp.xml, and .shx) are a collection of files with a common filename prefix and must be downloaded and stored in the same directory. Together they are the components of the shapefile and include FGDC compliant metadata.</formcont>
+		          <filedec>no compression applied</filedec>
+							<transize>0.145</transize>
+					</digtinfo>
+					<digtopt>
+							<onlinopt>
+									<computer>
+											<networka>
+													<networkr>https://www.sciencebase.gov/catalog/item/XXX</networkr>
+													<networkr>https://www.sciencebase.gov/catalog/file/get/XXX</networkr>
+													<networkr>https://www.sciencebase.gov/catalog/file/get/XXX</networkr>
+													<networkr>https://doi.org/10.5066/XXX</networkr>
+											</networka>
+									</computer>
+									<accinstr>The first link is to the page containing the data. The second is a direct link to download all contents of the data webpage as a zipped file. The third link is a direct link to download a zipped file with the data and metadata. And the final link is to the publication landing page.</accinstr>
+							</onlinopt>
+					</digtopt>
 			</digform>
 			<fees>None</fees>
 		</stdorder>
-		<techpreq>These data are available in a polyline shapefile format. The user must have software to read and process the data components of a shapefile.</techpreq>
+		<techpreq>These data are available in a shapefile format. The user must have software to read and process the data components of a shapefile.</techpreq>
 	</distinfo>
 	<metainfo>
 		<metd>20171215</metd>

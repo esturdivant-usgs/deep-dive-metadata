@@ -356,20 +356,25 @@ Full methods are provided in the associated Methods OFR (Zeigler and others 2018
 First, we calculate values that apply to entire cross-island transects. The supplemented NASC transects (see larger work) are populated with the shoreline change rate values from the original NASC transects. Transects that are not present in the NASC transects are populated with fill values for those fields (-99999).
 
 MHW position and foreshore slope along transect
+
 Each transect is assigned the foreshore slope (Bslope) from the nearest shoreline point within 25 m (Doran and others, 2017). The MHW shoreline easting and northing are the coordinates of the intersection of the oceanside shoreline with the transect. These values were populated for each transect as follows (using Python, especially the modules ArcPy, numpy, and pandas): (1) get SL_x and SL_y at point where transect crosses oceanside shoreline; (2) find the closest shoreline point to the intersection point; (3) copy the slope value from the shoreline point to the transect in the field Bslope.
 
 Dune positions along transects
+
 DL_x, DL_y, and DL_zMHW are the easting, northing, and height above MHW, respectively, of the nearest dune toe point within 25 meters of the transect. Likewise, DH_x, DH_y, and DH_zMHW are the easting, northing, and height above MHW, respectively, of the nearest dune crest point within 25 meters (Doran and others, 2017). We find the XYZ positions of the nearest dune crest and dune toe within 25 meters for each transect using Python to execute the following process for each transect, repeated for both dune crest and dune toe: (1) evaluate the distance from the transect to every dune crest/toe point find the shortest of these distances (distanceTo geometry method in ArcPy); (2) if the distance is less than 25 m, return the elevation from the point and the XY position of the point ‘snapped’ to the transect the transect (snapToLine geometry method); If there are no points within 25 m of the transect, populate the transect with null/fill values (pandas); (3) convert the elevations to the MHW datum by applying the MHW offset.
 
 Arm_x, Arm_y, and Arm_zMHW are the easting, northing, and height above MHW, respectively, where an artificial structure crosses the transect in the vicinity of the beach. These features are meant to supplement the dune toe data set by providing an upper limit to the beach in areas where dune toe extraction was confounded by the presence of an artificial structure. Values are populated for each transect as follows: (1) prioritizing areas where dune toe features were not successfully extracted, use orthoimagery, supplemented with the DEM, to manually digitize line segments on the oceanside face of artificial impediments to sediment (&quot;armoring&quot;), such as sand-fencing, sandbags, seawalls, etc.; (2) get the positions of intersection between the digitized armoring lines and the transects (Intersect tool from the Overlay toolset); (3) extract the elevation value at each intersection point from the DEM (Extract Multi Values to Points tool from Spatial Analyst); (4) convert the elevations to the MHW datum by applying the MHW offset.
 
 Beach width and height
+
 Upper beach width (uBW) and upper beach height (uBH) are calculated based on the difference in position between two points: the position of MHW along the transect (SL_x, SL_y) and the dune toe position or equivalent (usually DL_x, DL_y).  In some cases, the dune toe is not appropriate to designate the &quot;top of beach&quot; so beach width and height are calculated from either the position of the dune toe, the dune crest, or the base of an armoring structure. The dune crest was only considered a possibility if the dune crest elevation (DH_zMHW) was less than or equal to 2.5 m. They were calculated as follows, relying primarily on numpy and the snapToLine geometry method in ArcPy, and using pandas for data storage/organization: (1) find the position along the transect of an orthogonal line drawn to the dune point (DL_x, DL_y and DH_x, DH_y); (2) calculate distances from MHW to the position along the transect of the dune toe (DistDL), dune crest (DistDH), and armoring (DistArm); (3) conditionally select the appropriate feature to represent "top of beach." Dune toe is prioritized. If it is not available and DH_zMHW is less than or equal to maxDH, use dune crest. If neither of the dune positions satisfy the conditions and an armoring feature intersects with the transect, use the armoring position. If none of the three are possible, uBW and uBH will be fill; (4) copy the distance to shoreline and height above MHW (Dist--, ---zMHW) to uBW and uBH, respectively.
 
 Distance to inlet
+
 Distance to nearest tidal inlet (Dist2Inlet) was computed as alongshore distance of each sampling transect from the nearest tidal inlet. Inlets were manually delineated during the creation of the full island shoreline. This distance includes changes in the path of the shoreline rather than just a straight-line distance between each transect and the inlet and reflects sediment transport pathways. It was measured using the full shoreline polygon and the delineated tidal inlets (see shoreline file in larger work) as follows: (1) split the full island shoreline at the tidal inlets by converting the full island shoreline into a polyline feature class with the inlet lines included (Feature to Line in Data Management); (2) retain only the oceanside segments of the shoreline by deleting all segments that do not intersect any shoreline points (disjoint geometry method in arcpy data access module); (3) if the shoreline is bounded on both sides by an inlet, measure the distance to both and assign the minimum distance of the two or if the shoreline meets only one inlet (meaning the study area ends before the island ends), use the distance to the only inlet (cut, disjoint, and length geometry methods and properties in ArcPy python module)
 
 Island widths
+
 Barrier Island Width (WidthLand) was calculated as the above-water distance between the back-barrier and seaward MHW shorelines. WidthLand only included regions of the barrier within the shoreline delineated by the shoreline polygon (see larger work) and did not extend into any of the sinuous or intervening back-barrier waterways and islands. We also measured the full island width including space occupied by waterways (WidthFull) and the width of only the most seaward portion of land within the shoreline (WidthPart). These were calculated as follows: (1) clip the transect to the full island shoreline (Clip in the Analysis toolbox); (2) for WidthLand, get the length of the multipart line segment from &quot;SHAPE@LENGTH&quot; feature class attribute. When the feature is multipart, this will include only the remaining portions of the transect; (3) for WidthPart, convert the clipped transect from multipart to singlepart and get the length of the first line segment, which should be the most seaward; (4) for WidthFull, calculate the distance between the first vertex and the last vertex of the clipped transect (Feature Class to NumPy Array with explode to points, pandas groupby, numpy hypot).
 				</procdesc>
 				<procdate>20170224</procdate>
@@ -538,7 +543,14 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	    <denflat>298.257222101</denflat>
 	   </geodetic>
 	  </horizsys>
-<!-- vertical system....?  -->
+		<vertdef>
+				<altsys>
+						<altdatum>North American Vertical Datum of 1988 (NAVD88)</altdatum>
+						<altres>0.001</altres>
+						<altunits>meters</altunits>
+						<altenc>Elevation values described in attribute information. </altenc>
+				</altsys>
+		</vertdef>
 	</spref>
 	<eainfo>
 		<detailed>
@@ -1523,11 +1535,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 						<computer>
 							<networka>
 			         <networkr>XXX</networkr>
-			        </networka>
-							<networka>
 			         <networkr>XXX</networkr>
-			        </networka>
-							<networka>
 			         <networkr>XXX</networkr>
 			        </networka>
 						</computer>
