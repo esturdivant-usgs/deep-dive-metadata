@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="fgdc_classic.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Emily J. Sturdivant</origin>
+				<origin>Sara L. Zeigler</origin>
+				<origin>Benjamin T. Gutierrez</origin>
+				<pubdate>2018</pubdate>
+				<title>Supplemented NASC transects – regularly-spaced shore-normal line segments produced for GIS-based geomorphology sampling – Fire Island, 2014</title>
+				<geoform>vector</geoform>
+				<serinfo>
+					<sername>Data Release</sername>
+					<issue>XXX</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+				</pubinfo>
+				<onlink>XXX</onlink>
+				<lworkcit>
+					<citeinfo>
+						<origin>Emily J. Sturdivant</origin>
+						<origin>Sara L. Zeigler</origin>
+						<origin>Benjamin T. Gutierrez</origin>
+						<pubdate>2018</pubdate>
+						<title>Barrier island geomorphology and shorebird habitat metrics – Fire Island, NY, 2010–2014</title>
+						<serinfo>
+							<sername>Data Release</sername>
+							<issue>XXX</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+							<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+						</pubinfo>
+						<onlink>XXX</onlink>
+					</citeinfo>
+				</lworkcit>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+				Understanding the potential effects of sea level rise (SLR) on coastal landforms and the species and habitats they support will be critical for crafting approaches that balance the needs of both humans and native species. Given this increasing need to develop the capability to forecast sea-level rise impacts on barrier islands in the near- and long-term, we are developing Bayesian networks to evaluate and to forecast the cascading effects of sea level rise on shoreline change, barrier island state, and piping plover habitat availability. We use publicly available data products, i.e. lidar, orthophotography, and geomorphic feature sets derived from those, to extract metrics of barrier island characteristics at consistent sampling distances for incorporation into these models and into the training data used to parameterize these models. This data release contains the resulting metrics of barrier island geomorphology and spatial data layers of habitat characteristics that are input to Bayesian networks for piping plover habitat availability and barrier island geomorphology.  These datasets and models are being developed at a range of coastal sites along the northeastern coast of the United States.  This work is one component of a larger research and management program that seeks to understand and sustain ecological value, ecosystem services, and habitat suitability of beaches in the face of storm impacts, climate change, and sea-level rise. These data were produced for the barrier islands corresponding to the Fire Island National Seashore, NY.
+			</abstract>
+			<purpose>
+				These data provide transects spaced every 50-m alongshore for the barrier island. They were used as the base sampling unit to compile and sample barrier island characteristics for use in Bayesian networks to model geomorphology and shorebird nesting habitat. Attributes of the 5-m points provided in the larger work can be aggregated by transect and joined to these features by the field sort_ID.
+			</purpose>
+		</descript>
+		<!-- <timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2014</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd> -->
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+        <westbc>-73.321110271</westbc>
+        <eastbc>-72.707623224</eastbc>
+        <northbc>40.807356977</northbc>
+        <southbc>40.608143257</southbc>
+      </bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>General</themekt>
+				<themekey>Bayesian Network</themekey>
+				<themekey>Barrier Island</themekey>
+				<themekey>USGS</themekey>
+				<themekey>CMGP</themekey>
+				<themekey>Geographic Information Systems.</themekey>
+				<themekey>GIS</themekey>
+				<themekey>U.S. Geological Survey</themekey>
+				<themekey>Coastal and Marine Geology Program</themekey>
+				<themekey>Probability</themekey>
+				<themekey>Woods Hole Coastal and Marine Science Center</themekey>
+				<themekey>St. Petersburg Coastal and Marine Science Center</themekey>
+				<themekey>MHW</themekey>
+				<themekey>Mean High Water</themekey>
+				<themekey>Coastal Erosion</themekey>
+				<themekey>Shoreline Change</themekey>
+				<themekey>Sea Level Rise</themekey>
+				<themekey>Coastal Hazards</themekey>
+				<themekey>Coastal Habitat</themekey>
+				<themekey>Fire Island</themekey>
+				<themekey>Fire Island National Seashore</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>oceans</themekey>
+				<themekey>elevation</themekey>
+				<themekey>environment</themekey>
+				<themekey>oceans and estuaries</themekey>
+				<themekey>oceans and coastal</themekey>
+				<themekey>geoscientific information</themekey>
+			</theme>
+			<theme>
+					<themekt>USGS Thesaurus</themekt>
+					<themekey>geospatial datasets</themekey>
+			</theme>
+			<place>
+				<placekt>General</placekt>
+				<placekey>New York</placekey>
+				<placekey>NY</placekey>
+				<placekey>Long Island</placekey>
+				<placekey>Fire Island</placekey>
+				<placekey>North America</placekey>
+				<placekey>United States</placekey>
+				<placekey>USA</placekey>
+				<placekey>Atlantic Ocean</placekey>
+			</place>
+		</keywords>
+		<accconst>none</accconst>
+		<useconst>Public domain data from the U.S. Government are freely redistributable with proper metadata and source attribution. Please recognize the U.S. Geological Survey (USGS) as the source of this information.</useconst>
+		<ptcontac>
+			<cntinfo>
+					<cntperp>
+							<cntper>Emily Sturdivant</cntper>
+							<cntorg>U.S. Geological Survey</cntorg>
+					</cntperp>
+					<cntpos>GIS Specialist</cntpos>
+					<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>384 Woods Hole Road</address>
+							<city>Woods Hole</city>
+							<state>MA</state>
+							<postal>02543-1598</postal>
+							<country>USA</country>
+					</cntaddr>
+					<cntvoice>(508) 548-8700 x2230</cntvoice>
+					<cntfax>(508) 457-2310</cntfax>
+					<cntemail>esturdivant@usgs.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>XXXX.png</browsen>
+			<browsed>Browse graphic of the supplemented NASC transects labeled by sort_ID.</browsed>
+			<browset>PNG</browset>
+		</browse>
+		<natvform Sync="TRUE">CSV</natvform>
+		<native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.5 (Build 6491) Service Pack N/A (Build N/A)</native>
+		<crossref>
+			<citeinfo>
+				<origin>Sara L. Zeigler</origin>
+				<origin>Benjamin T. Gutierrez</origin>
+				<origin>Emily J. Sturdivant</origin>
+				<pubdate>2018</pubdate>
+				<title>Evaluating barrier island characteristics and piping plover (Charadrius melodus) habitat availability along the U.S. Atlantic coast – geospatial approaches and methodology</title>
+				<serinfo>
+					<sername>Open-File Report</sername>
+					<issue>XXXX</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+				</pubinfo>
+				<onlink>XXXXXXX</onlink>
+			</citeinfo>
+		</crossref>
+		<crossref>
+			<citeinfo>
+				<origin>Emily A. Himmelstoss</origin>
+				<origin>Meredith Kratzmann</origin>
+				<origin>Cheryl Hapke</origin>
+				<origin>E. Robert Thieler</origin>
+				<origin>Jeffrey List</origin>
+				<pubdate>2010</pubdate>
+				<title>The National Assessment of Shoreline Change: A GIS Compilation of Vector Shorelines and Associated Shoreline Change Data for the New England and Mid-Atlantic Coasts</title>
+				<serinfo>
+					<sername>Open-File Report</sername>
+					<issue>2010-1119</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+				</pubinfo>
+				<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>The attribute sort_ID was symbolized to verify that every transect had a unique value and those values progressed sequentially along the shoreline (ArcGIS Pro version 2.0).</attraccr>
+		</attracc>
+		<logic>This shapefile consists of line data compiled from multiple sources. No checks for topological consistency in addition to those described in the Attribute Accuracy Report were performed on these data.</logic>
+		<complete>Transects were extended approximately 3000 m inland from their original inland vertex (NASC transects). Curves in the generalized shoreline may cause transects to be spaced more or less densely than the standard 50 m alongshore, especially along the inland side of the study site. In some of these sites, transects overlap. In such cases, the full extended transect length was preserved allowing overlap so that each transect could represent the full width of the island. </complete>
+		<posacc>
+			<horizpa>
+				<horizpar>N/A</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>N/A</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+        <srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>2010</pubdate>
+						<title>LongIsland_LT.shp - Digital Shoreline Analysis System version 4.1 Transects with Long-Term Rate Calculations for the Long Island region from Montauk Point to the entrance of Raritan Bay, New York</title>
+						<geoform>vector digital data</geoform>
+						<serinfo>
+							<sername>Open-File Report</sername>
+							<issue>2010-1119</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+							<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+						</pubinfo>
+						<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+						<lworkcit>
+							<citeinfo>
+								<origin>Emily A. Himmelstoss</origin>
+								<origin>Meredith G. Kratzmann</origin>
+								<origin>Cheryl J. Hapke</origin>
+								<origin>E. Robert Thieler</origin>
+								<origin>Jeffrey List</origin>
+								<pubdate>2010</pubdate>
+								<title>National Assessment of Shoreline Change: A GIS Compilation of Vector Shorelines and Associated Shoreline Change Data for the New England and Mid-Atlantic Coasts</title>
+								<serinfo>
+									<sername>Open-File Report</sername>
+									<issue>2010-1119</issue>
+								</serinfo>
+								<pubinfo>
+									<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+									<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+								</pubinfo>
+								<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+							</citeinfo>
+						</lworkcit>
+					</citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>digital data</typesrc>
+        <srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2010</caldate>
+						</sngdate>
+					</timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NASC transects</srccitea>
+        <srccontr>Shore-normal transects with long term shoreline change rates</srccontr>
+      </srcinfo>
+			<procstep>
+				<procdesc>Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code on code.usgs.gov (XXXX).
+
+We first extend the NASC transects by 3000 m toward the estuarine side to cover the whole island width. We perform this using python (v3) with the modules arcpy and collections. The process checks the projection system of the files. It uses the coordinates of the last two vertices of each feature and calculates a new second coordinate at a specified distance (3000 m) along the prolongation of the line from the first coordinate. Next, we manually add transects to fill alongshore gaps greater than 50 m and assign ID values that order the transects consecutively along the shoreline. The additional transects do not include values for shoreline change rates and are populated with fill values (-99999).
+</procdesc>
+				<procdate>20170224</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Emily J. Sturdivant</cntper>
+							<cntorg>U.S. Geological Survey</cntorg>
+						</cntperp>
+						<cntpos>Geographer</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>384 Woods Hole Road</address>
+							<city>Woods Hole</city>
+							<state>MA</state>
+							<postal>02543-1598</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>508-548-8700 x2230</cntvoice>
+						<cntfax>508-457-2310</cntfax>
+						<cntemail>esturdivant@usgs.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>1102</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-75.0</longcm>
+              <latprjo>0.0</latprjo>
+              <feast>500000.0</feast>
+              <fnorth>0.0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.6096</absres>
+            <ordres>0.6096</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D_North_American_1983</horizdn>
+        <ellips>GRS_1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>fiis14_trans.shp</enttypl>
+				<enttypd>Geometry of shore-normal transects used as the base for sampling barrier island geomorphology. Various ID fields are included to permit later joining. </enttypd>
+				<enttypds>Producer defined</enttypds>
+				<!-- <enttypt>CSV</enttypt>
+				<enttypc>86024</enttypc> -->
+			</enttyp>
+			<attr>
+        <attrlabl>sort_ID</attrlabl>
+        <attrdef>Unique identifier that orders transects sequentially along the shoreline.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>1102</rdommax>
+            <attrunit>integer</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TRANSECTID</attrlabl>
+        <attrdef>Transect identifier corresponding to that used in NASC transects.</attrdef>
+        <attrdefs>Himmelstoss and others (2010)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-99999</rdommin>
+            <rdommax>4049</rdommax>
+            <attrunit>integer</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TRANSORDER</attrlabl>
+        <attrdef>Transect identifier corresponding to that used in NASC transects.</attrdef>
+        <attrdefs>Himmelstoss and others (2010)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-99999</rdommin>
+            <rdommax>2057</rdommax>
+            <attrunit>integer</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+        <attrdef>Length of polyline.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>384.12429769</rdommin>
+            <rdommax>3356.36578918</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DD_ID</attrlabl>
+        <attrdef>Identifier that orders transects sequentially along the shoreline. Unique to the project, see Zeigler and others, 2018.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>10001</rdommin>
+            <rdommax>11102</rdommax>
+            <attrunit>integer</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+		</detailed>
+		<overview>
+			<eaover>Geometry of shore-normal transects used as the base for sampling barrier island geomorphology. Various ID fields are included to permit later joining.
+fill value for all: -99999.</eaover>
+			<eadetcit>Methods Open-File Report by Zeigler and others 2018</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>384 Woods Hole Road</address>
+					<city>Woods Hole</city>
+					<state>MA</state>
+					<postal>02543-1598</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>508-548-8700</cntvoice>
+				<cntfax>508-457-2310</cntfax>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data. These data are available as an Esri shapefile. Additionally, the CSDGM FGDC metadata in XML format is included.</resdesc>
+		<distliab>Neither the U.S. Government, the Department of the Interior, nor the USGS, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data or related materials. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<!-- <formname>Vector Digital Data (polylines)</formname> -->
+		      <formname>Shapefile</formname>
+		      <formvern>ArcGIS 10.5</formvern>
+		      <formspec>Esri point shapefile</formspec>
+		      <formcont>These files (.cpg, .dbf, .prj, .sbn, .sbx, .shp, .shp.xml, and .shx) are a collection of files with a common filename prefix and must be downloaded and stored in the same directory. Together they are the components of the shapefile and include FGDC compliant metadata.</formcont>
+					<filedec>no compression applied</filedec>
+					<transize>0.067</transize>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+			         <networkr>XXX</networkr>
+			        </networka>
+							<networka>
+			         <networkr>XXX</networkr>
+			        </networka>
+							<networka>
+			         <networkr>XXX</networkr>
+			        </networka>
+						</computer>
+						<accinstr>The first link is to the page containing the data. The second is a direct link to download a zipped file with the data. And the final link is to the publication landing page.</accinstr>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>None</fees>
+		</stdorder>
+		<techpreq>These data are available in a polyline shapefile format. The user must have software to read and process the data components of a shapefile.</techpreq>
+	</distinfo>
+	<metainfo>
+		<metd>20171215</metd>
+		<metc>
+			<cntinfo>
+					<cntperp>
+							<cntper>Emily Sturdivant</cntper>
+							<cntorg>U.S. Geological Survey</cntorg>
+					</cntperp>
+					<cntpos>GIS Specialist</cntpos>
+					<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>384 Woods Hole Road</address>
+							<city>Woods Hole</city>
+							<state>MA</state>
+							<postal>02543-1598</postal>
+							<country>USA</country>
+					</cntaddr>
+					<cntvoice>(508) 548-8700 x2230</cntvoice>
+					<cntfax>(508) 457-2310</cntfax>
+					<cntemail>esturdivant@usgs.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+</metadata>
