@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="fgdc_classic.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Emily J. Sturdivant</origin>
+				<origin>Sara L. Zeigler</origin>
+				<origin>Benjamin T. Gutierrez</origin>
+				<pubdate>2018</pubdate>
+				<title>Upper beach width (distance between MHW and dune) from shore-normal transects spaced 50 m alongshore, 5-m grid – Fire Island, 2014</title>
+				<geoform>Raster Digital Data Set</geoform>
+				<serinfo>
+					<sername>Data Release</sername>
+					<issue>XXX</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+				</pubinfo>
+				<onlink>XXX</onlink>
+				<lworkcit>
+					<citeinfo>
+						<origin>Emily J. Sturdivant</origin>
+						<origin>Sara L. Zeigler</origin>
+						<origin>Benjamin T. Gutierrez</origin>
+						<pubdate>2018</pubdate>
+						<title>Barrier island geomorphology and shorebird habitat metrics – Fire Island, NY, 2010–2014</title>
+						<serinfo>
+							<sername>Data Release</sername>
+							<issue>XXX</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+							<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+						</pubinfo>
+						<onlink>XXX</onlink>
+					</citeinfo>
+				</lworkcit>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+				Understanding the potential effects of sea level rise (SLR) on coastal landforms and the species and habitats they support will be critical for crafting approaches that balance the needs of both humans and native species. Given this increasing need to develop the capability to forecast sea-level rise impacts on barrier islands in the near- and long-term, we are developing Bayesian networks to evaluate and to forecast the cascading effects of sea level rise on shoreline change, barrier island state, and piping plover habitat availability. We use publicly available data products, i.e. lidar, orthophotography, and geomorphic feature sets derived from those, to extract metrics of barrier island characteristics at consistent sampling distances for incorporation into these models and into the training data used to parameterize these models. This data release contains the resulting metrics of barrier island geomorphology and spatial data layers of habitat characteristics that are input to Bayesian networks for piping plover habitat availability and barrier island geomorphology.  These datasets and models are being developed at a range of coastal sites along the northeastern coast of the United States.  This work is one component of a larger research and management program that seeks to understand and sustain ecological value, ecosystem services, and habitat suitability of beaches in the face of storm impacts, climate change, and sea-level rise. These data were produced for the barrier islands corresponding to the Fire Island National Seashore, NY.
+			</abstract>
+			<purpose>
+				The upper beach width was calculated for each transect (see larger work) for use in geomorphology modeling. It was converted from vector to raster format for use in modeling shorebird habitat suitability.
+			</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2014</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+        <westbc>-73.321140378</westbc>
+        <eastbc>-72.707587652</eastbc>
+        <northbc>40.807374916</northbc>
+        <southbc>40.608120062</southbc>
+      </bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>General</themekt>
+				<themekey>Bayesian Network</themekey>
+				<themekey>Barrier Island</themekey>
+				<themekey>USGS</themekey>
+				<themekey>CMGP</themekey>
+				<themekey>Geographic Information Systems.</themekey>
+				<themekey>GIS</themekey>
+				<themekey>U.S. Geological Survey</themekey>
+				<themekey>Coastal and Marine Geology Program</themekey>
+				<themekey>Probability</themekey>
+				<themekey>Woods Hole Coastal and Marine Science Center</themekey>
+				<themekey>St. Petersburg Coastal and Marine Science Center</themekey>
+				<themekey>MHW</themekey>
+				<themekey>Mean High Water</themekey>
+				<themekey>Coastal Erosion</themekey>
+				<themekey>Shoreline Change</themekey>
+				<themekey>Sea Level Rise</themekey>
+				<themekey>Coastal Hazards</themekey>
+				<themekey>Coastal Habitat</themekey>
+				<themekey>Fire Island</themekey>
+				<themekey>Fire Island National Seashore</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>oceans</themekey>
+				<themekey>elevation</themekey>
+				<themekey>environment</themekey>
+				<themekey>oceans and estuaries</themekey>
+				<themekey>oceans and coastal</themekey>
+				<themekey>geoscientific information</themekey>
+			</theme>
+			<theme>
+					<themekt>USGS Thesaurus</themekt>
+					<themekey>geospatial datasets</themekey>
+			</theme>
+			<place>
+				<placekt>General</placekt>
+				<placekey>New York</placekey>
+				<placekey>NY</placekey>
+				<placekey>Long Island</placekey>
+				<placekey>Fire Island</placekey>
+				<placekey>North America</placekey>
+				<placekey>United States</placekey>
+				<placekey>USA</placekey>
+				<placekey>Atlantic Ocean</placekey>
+			</place>
+		</keywords>
+		<accconst>none</accconst>
+		<useconst>Public domain data from the U.S. Government are freely redistributable with proper metadata and source attribution. Please recognize the U.S. Geological Survey (USGS) as the source of this information.</useconst>
+		<ptcontac>
+			<cntinfo>
+					<cntperp>
+							<cntper>Emily Sturdivant</cntper>
+							<cntorg>U.S. Geological Survey</cntorg>
+					</cntperp>
+					<cntpos>Geographer</cntpos>
+					<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>384 Woods Hole Road</address>
+							<city>Woods Hole</city>
+							<state>MA</state>
+							<postal>02543-1598</postal>
+							<country>USA</country>
+					</cntaddr>
+					<cntvoice>(508) 548-8700 x2230</cntvoice>
+					<cntfax>(508) 457-2310</cntfax>
+					<cntemail>esturdivant@usgs.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>XXXX.png</browsen>
+			<browsed>Browse graphic of the beach width surface created from the populated transects.</browsed>
+			<browset>PNG</browset>
+		</browse>
+		<native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.5 (Build 6491) Service Pack N/A (Build N/A)</native>
+		<crossref>
+			<citeinfo>
+				<origin>Sara L. Zeigler</origin>
+				<origin>Benjamin T. Gutierrez</origin>
+				<origin>Emily J. Sturdivant</origin>
+				<pubdate>2018</pubdate>
+				<title>Evaluating barrier island characteristics and piping plover (Charadrius melodus) habitat availability along the U.S. Atlantic coast – geospatial approaches and methodology</title>
+				<serinfo>
+					<sername>Open-File Report</sername>
+					<issue>XXXX</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+				</pubinfo>
+				<onlink>XXXXXXX</onlink>
+			</citeinfo>
+		</crossref>
+		<crossref>
+			<citeinfo>
+				<origin>Emily A. Himmelstoss</origin>
+				<origin>Meredith Kratzmann</origin>
+				<origin>Cheryl Hapke</origin>
+				<origin>E. Robert Thieler</origin>
+				<origin>Jeffrey List</origin>
+				<pubdate>2010</pubdate>
+				<title>The National Assessment of Shoreline Change: A GIS Compilation of Vector Shorelines and Associated Shoreline Change Data for the New England and Mid-Atlantic Coasts</title>
+				<serinfo>
+					<sername>Open-File Report</sername>
+					<issue>2010-1119</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+				</pubinfo>
+				<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+			</citeinfo>
+		</crossref>
+		<crossref>
+			<citeinfo>
+				<origin>Kathryn M. Weber</origin>
+				<origin>Jeffrey H. List</origin>
+				<origin>Karen L. M. Morgan</origin>
+				<pubdate>2005</pubdate>
+				<title>An Operational Mean High Water Datum for Determination of Shoreline Position from Topographic Lidar Data</title>
+				<serinfo>
+					<sername>Open-File Report</sername>
+					<issue>2005-1027</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+				</pubinfo>
+				<onlink>http://pubs.usgs.gov/of/2005/1027/</onlink>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Accuracy of the beach width value is dependent on the accuracy of the lineage data, which can be viewed in the dataset containing transect-averaged values in the larger work. To ensure direct agreement between the transects and this raster version, the transects colored by beach width were overlaid on the raster surface colored by beach width.
+
+The beach width values were spotted checked while verifying the reliability of the transect values. Spot checks were performed by plotting the beach width on a cross-shore elevation profile with the available dune positions positioned on the plot as well. These values were always found to be in agreement unless reported elsewhere. More detail is provided in the associated Open-File Report (Zeigler and others, 2018), in the source code distributed on code.usgs.gov and in the Entity and Attribute Information.</attraccr>
+		</attracc>
+		<logic>With increasing distance of a cell from the seaward face of the island, there is less likely to be a direct orthogonal relationship between the cell value and the beach because transects were shortened to eliminate overlap prior to assigning the line values to the raster grid. Cells may not have the same value as neighboring cells directly seaward because of the same overlap-elimination process applied to the transects. </logic>
+		<complete>With increasing distance of a cell from the seaward face of the island, there is less likely to be a direct orthogonal relationship between the cell value and the beach because transects were shortened to eliminate overlap prior to assigning the line values to the raster grid. This dataset is clipped to a custom boundary and may not include the entire spatial extent of the input datasets as they are published in original form. </complete>
+		<posacc>
+			<horizpa>
+				<horizpar>The horizontal positional accuracy is assumed to be correct because of the processes used for georeferencing the source data. </horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>N/A</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+        <srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>2010</pubdate>
+						<title>LongIsland_LT.shp - Digital Shoreline Analysis System version 4.1 Transects with Long-Term Rate Calculations for the Long Island region from Montauk Point to the entrance of Raritan Bay, New York</title>
+						<geoform>vector digital data</geoform>
+						<serinfo>
+							<sername>Open-File Report</sername>
+							<issue>2010-1119</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+							<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+						</pubinfo>
+						<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+						<lworkcit>
+							<citeinfo>
+								<origin>Emily A. Himmelstoss</origin>
+								<origin>Meredith G. Kratzmann</origin>
+								<origin>Cheryl J. Hapke</origin>
+								<origin>E. Robert Thieler</origin>
+								<origin>Jeffrey List</origin>
+								<pubdate>2010</pubdate>
+								<title>National Assessment of Shoreline Change: A GIS Compilation of Vector Shorelines and Associated Shoreline Change Data for the New England and Mid-Atlantic Coasts</title>
+								<serinfo>
+									<sername>Open-File Report</sername>
+									<issue>2010-1119</issue>
+								</serinfo>
+								<pubinfo>
+									<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+									<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+								</pubinfo>
+								<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+							</citeinfo>
+						</lworkcit>
+					</citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>digital data</typesrc>
+        <srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2010</caldate>
+						</sngdate>
+					</timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NASC transects</srccitea>
+        <srccontr>Shore-normal transects with long term shoreline change rates</srccontr>
+      </srcinfo>
+			<srcinfo>
+			<srccite>
+				<citeinfo>
+					<origin>Kara S. Doran</origin>
+					<origin>Joseph W. Long</origin>
+					<origin>Hilary F. Stockdon</origin>
+					<origin>Justin J. Birchler</origin>
+					<origin>Matthew W. Hardy</origin>
+					<origin>Karen L.M. Morgan</origin>
+					<origin>Owen Brenner</origin>
+					<pubdate>20170609</pubdate>
+					<title>2014 Post-Hurricane Sandy SC to NY NOAA NGS Lidar-Derived Dune Crest, Toe and Shoreline</title>
+					<geoform>tabular digital data</geoform>
+					<serinfo>
+						<sername>U.S. Geological Survey Data Release</sername>
+						<issue>doi:10.5066/F7GF0S0Z</issue>
+					</serinfo>
+					<pubinfo>
+						<pubplace>St. Petersburg, FL</pubplace>
+						<publish>U.S. Geological Survey</publish>
+					</pubinfo>
+					<onlink>https://doi.org/10.5066/F7GF0S0Z</onlink>
+				</citeinfo>
+			</srccite>
+			<typesrc>digital data</typesrc>
+			<srctime>
+				<timeinfo>
+					<rngdates>
+						<begdate>20140108</begdate>
+						<enddate>20140727</enddate>
+					</rngdates>
+				</timeinfo>
+				<srccurr>ground condition</srccurr>
+			</srctime>
+			<srccitea>geomorphic features</srccitea>
+			<srccontr>MHW shoreline and dune positions</srccontr>
+		</srcinfo>
+			<procstep>
+				<procdesc>Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code on code.usgs.gov ().
+
+The width of the upper beach (from mean high water (MHW) shoreline to either dune crest, dune toe, or coastal armoring/development) is calculated along shore-normal transects. These transects populated with all relevant calculations are included in the larger work.
+
+Calculate beach width along transect
+
+To calculate the beach width for the transects, upper beach width (uBW) is calculated based on the difference in position between two points: the position of MHW along the transect (SL_x, SL_y) and the dune toe position or equivalent (usually DL_x, DL_y).  It is calculated as follows, relying primarily on numpy and the snapToLine geometry method in ArcPy, and using pandas for data storage/organization: (1) find the position along the transect of an orthogonal line drawn to the dune point (DL_x, DL_y and DH_x, DH_y); (2) calculate distances from MHW to the position along the transect of the dune toe (DistDL), dune crest (DistDH), and armoring (DistArm); (3) conditionally select the appropriate feature to represent "top of beach." Dune toe is prioritized. If it is not available and DH_zMHW is less than or equal to maxDH, use dune crest. If neither of the dune positions satisfy the conditions and an armoring feature intersects with the transect, use the armoring position. If none of the three are possible, uBW will have a fill value (-99999); (4) copy the selected distance to shoreline (Dist--) to uBW.
+
+Assign values to raster
+
+A transect ID raster was created from the same transect file used to produce the 5-m points (see larger work). Those transects were modified from the supplemented NASC transects by manually shortening overlapping transects to the first point of intersection. When a transect overlapped with a supplementary transect, the supplementary transect was shortened to the intersection point. The beach width values from each transect are assigned to the cells that represent that transect using the JoinField tool in the data management toolbox. </procdesc>
+				<procdate>20170224</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Emily J. Sturdivant</cntper>
+							<cntorg>U.S. Geological Survey</cntorg>
+						</cntperp>
+						<cntpos>Geographer</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>384 Woods Hole Road</address>
+							<city>Woods Hole</city>
+							<state>MA</state>
+							<postal>02543-1598</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>508-548-8700 x2230</cntvoice>
+						<cntfax>508-457-2310</cntfax>
+						<cntemail>esturdivant@usgs.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>4194</rowcount>
+      <colcount>10277</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-75.0</longcm>
+              <latprjo>0.0</latprjo>
+              <feast>500000.0</feast>
+              <fnorth>0.0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>5.0</absres>
+            <ordres>5.0</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D_North_American_1983</horizdn>
+        <ellips>GRS_1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+        <enttypl>Attribute Table</enttypl>
+        <enttypd>Table containing attribute information associated with the data set.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+			<attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Matches the sort_ID identifier values used to uniquely identify transects in the supplemented NASC transects and the 5-m points (see larger work)</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>1102</rdommax>
+            <attrunit>integer</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+        <attrdef>Number of pixels pertaining to the transect identified by the Value field.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1011</rdommin>
+            <rdommax>8325</rdommax>
+            <attrunit>count</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>uBW</attrlabl>
+        <attrdef>Upper beach width. The horizontal distance from the MHW shoreline to the dune toe or equivalent.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-99999</rdommin>
+            <rdommax>245.174219104</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+		</detailed>
+		<overview>
+			<eaover>The upper beach width is the distance along a shore-normal transect between the mean high water (MHW) shoreline and either dune crest, dune toe, or coastal armoring/development. The fill value is -99999 and indicates that the beach width is unknown.</eaover>
+			<eadetcit>Methods Open-File Report by Zeigler and others 2018</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>384 Woods Hole Road</address>
+					<city>Woods Hole</city>
+					<state>MA</state>
+					<postal>02543-1598</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>508-548-8700</cntvoice>
+				<cntfax>508-457-2310</cntfax>
+			</cntinfo>
+		</distrib>
+		<resdesc>There is one GeoTIFF file containing the upper beach width values. A browse graphic and the associated CSDGM FGDC metadata in XML format are also available for download.</resdesc>
+		<distliab>Neither the U.S. Government, the Department of the Interior, nor the USGS, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data or related materials. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+		<stdorder>
+			<digform>
+					<digtinfo>
+							<formname>GeoTIFF</formname>
+							<formvern>ArcGIS 10.5</formvern>
+							<formspec>32-bit GeoTIFF</formspec>
+							<formcont>A 32-bit GeoTIFF of upper beach width along transects, associated GeoTIFF components, a browse thumbnail .png image, and FGDC CSDGM metadata.</formcont>
+							<filedec>no compression applied</filedec>
+							<transize>87.6</transize>
+					</digtinfo>
+					<digtopt>
+							<onlinopt>
+									<computer>
+											<networka>
+													<networkr>https://www.sciencebase.gov/catalog/item/XXX</networkr>
+													<networkr>https://www.sciencebase.gov/catalog/file/get/XXX</networkr>
+													<networkr>https://www.sciencebase.gov/catalog/file/get/XXX</networkr>
+													<networkr>https://doi.org/10.5066/XXX</networkr>
+											</networka>
+									</computer>
+									<accinstr>The first link is to the page containing the data. The second is a direct link to download all contents of the data webpage as a zipped file. The third link is a direct link to download a zipped file with the data and metadata. And the final link is to the publication landing page.</accinstr>
+							</onlinopt>
+					</digtopt>
+			</digform>
+			<digform>
+			 <digtinfo>
+				<formname>WCS</formname>
+				<formcont>Upper beach width along transects provided through a WCS (web coverage service).</formcont>
+			 </digtinfo>
+			 <digtopt>
+				<onlinopt>
+				 <computer>
+					<networka>
+						<networkr>https://www.sciencebase.gov/catalogMaps/mapping/ows/xxx</networkr>
+						<networkr>https://www.sciencebase.gov/catalog/item/xxx</networkr>
+						<networkr>https://doi.org/10.5066/xxx</networkr>
+					</networka>
+				 </computer>
+				 <accinstr>The first link in the network resources accesses the data through a coverage service. The second is to the page containing the data. And the final link is to the publication landing page. </accinstr>
+				</onlinopt>
+			 </digtopt>
+			</digform>
+			<digform>
+			 <digtinfo>
+				<formname>WMS</formname>
+				<formcont>Upper beach width along transects provided through a WMS (web mapping service). </formcont>
+			 </digtinfo>
+			 <digtopt>
+				<onlinopt>
+				 <computer>
+					<networka>
+					 <networkr>https://www.sciencebase.gov/catalogMaps/mapping/ows/xxx</networkr>
+					 <networkr>https://www.sciencebase.gov/catalog/item/xxx</networkr>
+					 <networkr>https://doi.org/10.5066/xxx</networkr>
+					</networka>
+				 </computer>
+				 <accinstr>The first link in the network resources accesses the data through a mapping service. The second is to the page containing the data. And the final link is to the publication landing page. </accinstr>
+				</onlinopt>
+			 </digtopt>
+			</digform>
+			<fees>None</fees>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20171215</metd>
+		<metc>
+			<cntinfo>
+					<cntperp>
+							<cntper>Emily Sturdivant</cntper>
+							<cntorg>U.S. Geological Survey</cntorg>
+					</cntperp>
+					<cntpos>GIS Specialist</cntpos>
+					<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>384 Woods Hole Road</address>
+							<city>Woods Hole</city>
+							<state>MA</state>
+							<postal>02543-1598</postal>
+							<country>USA</country>
+					</cntaddr>
+					<cntvoice>(508) 548-8700 x2230</cntvoice>
+					<cntfax>(508) 457-2310</cntfax>
+					<cntemail>esturdivant@usgs.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+</metadata>
