@@ -140,7 +140,7 @@
 		</ptcontac>
 		<browse>
 			<browsen>XXXX.png</browsen>
-			<browsed>Browse graphic of the supplemented NASC transects labeled by sort_ID.</browsed>
+			<browsed>Browse graphic of a subset of the supplemented NASC transects labeled by sort_ID.</browsed>
 			<browset>PNG</browset>
 		</browse>
 		<natvform Sync="TRUE">CSV</natvform>
