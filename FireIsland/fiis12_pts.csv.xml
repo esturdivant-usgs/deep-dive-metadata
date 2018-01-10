@@ -609,7 +609,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdefs>Producer defined</attrdefs>
 	     <attrdomv>
 	      <rdom>
-	       <rdommin>642115.6352</rdommin>
+	       <rdommin>-99999</rdommin>
 	       <rdommax>691774.0891</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
@@ -621,7 +621,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdefs>Producer defined</attrdefs>
 	     <attrdomv>
 	      <rdom>
-	       <rdommin>4498010.1238</rdommin>
+	       <rdommin>-99999</rdommin>
 	       <rdommax>4516548.8192</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
@@ -693,7 +693,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdefs>Producer defined</attrdefs>
 	     <attrdomv>
 	      <rdom>
-	       <rdommin>0.0036877429</rdommin>
+	       <rdommin>-99999</rdommin>
 	       <rdommax>62.704655</rdommax>
 	       <attrunit>percent</attrunit>
 	      </rdom>
@@ -705,7 +705,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdefs>Producer defined</attrdefs>
 	     <attrdomv>
 	      <rdom>
-	       <rdommin>-0.33183336</rdommin>
+	       <rdommin>-99999</rdommin>
 	       <rdommax>12.173281</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
@@ -717,7 +717,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdefs>Producer defined</attrdefs>
 	     <attrdomv>
 	      <rdom>
-	       <rdommin>-0.791833</rdommin>
+	       <rdommin>-99999</rdommin>
 	       <rdommax>11.713281</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
@@ -963,7 +963,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>4515827.</rdommax>
+	       <rdommax>4515827.4515</rdommax>
 	      </rdom>
 	     </attrdomv>
 	    </attr>
@@ -979,79 +979,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	      </rdom>
 	     </attrdomv>
 	    </attr>
-	    <attr>
-	     <attrlabl>DH_x</attrlabl>
-	     <attrdef>Easting of the nearest dune crest point within 25 meters of the transect.</attrdef>
-	     <attrdefs>Doran and others, 2017</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>693288.786200</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-	    <attr>
-	     <attrlabl>DH_y</attrlabl>
-	     <attrdef>Northing of the nearest dune crest point within 25 meters of the transect.</attrdef>
-	     <attrdefs>Doran and others, 2017</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>4516509</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-	    <attr>
-	     <attrlabl>DH_z</attrlabl>
-	     <attrdef>Elevation of the nearest dune crest point within 25 meters of the transect, referenced to NAVD88.</attrdef>
-	     <attrdefs>Doran and others, 2017</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>11.757191</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
 			<attr>
-	     <attrlabl>DH_zmhw</attrlabl>
-	     <attrdef>Height of the foredune along the transect referenced to MHW.</attrdef>
-	     <attrdefs>Producer defined</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>11.297191</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-	    <attr>
-	     <attrlabl>DH_snapX</attrlabl>
-	     <attrdef>Easting of the nearest dune crest point within 25 meters of the transect, snapped to the transect.</attrdef>
-	     <attrdefs>Producer defined</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>693280.002192</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-	    <attr>
-	     <attrlabl>DH_snapY</attrlabl>
-	     <attrdef>Northing of the nearest dune crest point within 25 meters of the transect, snapped to the transect.</attrdef>
-	     <attrdefs>Producer defined</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>4516506</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-	    <attr>
 	     <attrlabl>DL_x</attrlabl>
 	     <attrdef>Easting of the nearest dune toe point within 25 meters of the transect.</attrdef>
 	     <attrdefs>Doran and others, 2017</attrdefs>
@@ -1070,7 +998,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>4515355</rdommax>
+	       <rdommax>4515355.4041</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -1118,11 +1046,84 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>4515364</rdommax>
+	       <rdommax>4515364.1457</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
 	    </attr>
+	    <attr>
+	     <attrlabl>DH_x</attrlabl>
+	     <attrdef>Easting of the nearest dune crest point within 25 meters of the transect.</attrdef>
+	     <attrdefs>Doran and others, 2017</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>693288.786200</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+	    <attr>
+	     <attrlabl>DH_y</attrlabl>
+	     <attrdef>Northing of the nearest dune crest point within 25 meters of the transect.</attrdef>
+	     <attrdefs>Doran and others, 2017</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>4516509.1758</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+	    <attr>
+	     <attrlabl>DH_z</attrlabl>
+	     <attrdef>Elevation of the nearest dune crest point within 25 meters of the transect, referenced to NAVD88.</attrdef>
+	     <attrdefs>Doran and others, 2017</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>11.757191</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+			<attr>
+	     <attrlabl>DH_zmhw</attrlabl>
+	     <attrdef>Height of the foredune along the transect referenced to MHW.</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>11.297191</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+	    <attr>
+	     <attrlabl>DH_snapX</attrlabl>
+	     <attrdef>Easting of the nearest dune crest point within 25 meters of the transect, snapped to the transect.</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>693280.002192</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+	    <attr>
+	     <attrlabl>DH_snapY</attrlabl>
+	     <attrdef>Northing of the nearest dune crest point within 25 meters of the transect, snapped to the transect.</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>4516505.67518</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+
 	    <attr>
 	     <attrlabl>Arm_x</attrlabl>
 	     <attrdef>Easting of armoring structure nearest to shoreline along transect.</attrdef>
@@ -1142,7 +1143,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>4511411</rdommax>
+	       <rdommax>4511411.4882</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -1225,7 +1226,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdefs>Producer defined</attrdefs>
 	     <attrdomv>
 	      <rdom>
-	       <rdommin>0.107929</rdommin>
+	       <rdommin>-99999</rdommin>
 	       <rdommax>952.407177</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
@@ -1237,7 +1238,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdefs>Producer defined</attrdefs>
 	     <attrdomv>
 	      <rdom>
-	       <rdommin>25.170173</rdommin>
+	       <rdommin>-99999</rdommin>
 	       <rdommax>952.407177</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
@@ -1249,7 +1250,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdefs>Producer defined</attrdefs>
 	     <attrdomv>
 	      <rdom>
-	       <rdommin>25.170173</rdommin>
+	       <rdommin>-99999</rdommin>
 	       <rdommax>952.407177</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
@@ -1297,7 +1298,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdefs>Producer defined</attrdefs>
 	     <attrdomv>
 	      <rdom>
-	       <rdommin>-0.108440</rdommin>
+	       <rdommin>-99999</rdommin>
 	       <rdommax>11.713281</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
@@ -1331,13 +1332,13 @@ To calculate the values, the data is passed between pandas dataframe format and 
 						<edomvds>Producer defined</edomvds>
 					</edom>
 				</attrdomv>
-				<!-- <attrdomv>
+				<attrdomv>
 					<edom>
 						<edomv>-99999</edomv>
 						<edomvd>Missing value.</edomvd>
 						<edomvds>Producer defined</edomvds>
 					</edom>
-				</attrdomv> -->
+				</attrdomv>
 			</attr>
 			<attr>
 				<attrlabl Sync="TRUE">Development</attrlabl>
@@ -1361,19 +1362,13 @@ To calculate the values, the data is passed between pandas dataframe format and 
 						<edomvds>Producer defined</edomvds>
 					</edom>
 				</attrdomv>
-				<!-- <attrdomv>
-					<edom>
-						<edomv>444</edomv><edomvd>Denotes heavy development. </edomvd>
-						<edomvds>Producer defined</edomvds>
-					</edom>
-				</attrdomv>
 				<attrdomv>
 					<edom>
 						<edomv>-99999</edomv>
 						<edomvd>Missing value.</edomvd>
 						<edomvds>Producer defined</edomvds>
 					</edom>
-				</attrdomv> -->
+				</attrdomv>
 			</attr>
 			<attr>
 				<attrlabl Sync="TRUE">Nourishment</attrlabl>
@@ -1391,21 +1386,14 @@ To calculate the values, the data is passed between pandas dataframe format and 
 						<edomvds>Producer defined</edomvds>
 					</edom>
 				</attrdomv>
-				<!-- <attrdomv>
-					<edom>
-						<edomv>333</edomv><edomvd>Denotes frequent (yearly) nourishment.</edomvd>
-						<edomvds>Producer defined</edomvds>
-					</edom>
-				</attrdomv>
 				<attrdomv>
 					<edom>
 						<edomv>-99999</edomv>
 						<edomvd>Missing value.</edomvd>
 						<edomvds>Producer defined</edomvds>
 					</edom>
-				</attrdomv> -->
+				</attrdomv>
 			</attr>
-
 		</detailed>
 		<overview>
 			<eaover>Geomorphology metrics at discrete points along shore-normal transects. Transect-averaged values are also included. Each point represents a 5 x 5 m sample area with the geomorphological characteristics specified. All calculations for length are in meter units and were based on the UTM zone 18N NAD83 projection. Missing values are indicated with the value -99999. The entity and attribute information provided here describes the tabular data associated with the dataset. Please review the individual attribute descriptions for detailed information.</eaover>
@@ -1437,7 +1425,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 				<digtinfo>
 					<formname>CSV</formname>
 					<filedec>no compression applied</filedec>
-					<transize>42</transize>
+					<transize>61</transize>
 				</digtinfo>
 				<digtopt>
 					<onlinopt>
