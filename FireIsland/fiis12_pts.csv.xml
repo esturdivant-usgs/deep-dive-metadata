@@ -143,7 +143,7 @@
 			<browsed>Example views of the 5-m points displayed spatially. The points were projected from the easting and northing (seg_x, seg_y) and overlaid on the digital elevation model used during processing. Each panel displays the points colored by a different variables, as labeled.</browsed>
 			<browset>PNG</browset>
 		</browse>
-		<natvform Sync="TRUE">CSV</natvform>
+		<!-- <natvform Sync="TRUE">CSV</natvform> -->
 		<crossref>
 			<citeinfo>
 				<origin>Sara L. Zeigler</origin>
@@ -578,14 +578,14 @@ To calculate the values, the data is passed between pandas dataframe format and 
 						<altdatum>North American Vertical Datum of 1988 (NAVD88)</altdatum>
 						<altres>0.001</altres>
 						<altunits>meters</altunits>
-						<altenc>Elevation values described in attribute information. </altenc>
+						<altenc>Attribute values</altenc>
 				</altsys>
 		</vertdef>
 	</spref>
 	<eainfo>
 		<detailed>
 			<enttyp>
-				<enttypl>fiis14_pts.csv</enttypl>
+				<enttypl>fiis12_pts.csv</enttypl>
 				<enttypd>Geomorphology metrics at discrete points along shore-normal transects. Transect-averaged values are also included.</enttypd>
 				<enttypds>Producer defined</enttypds>
 				<!-- <enttypt>CSV</enttypt>
@@ -724,7 +724,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     </attrdomv>
 	    </attr>
 			<attr>
-				<attrlabl Sync="TRUE">GeoSet</attrlabl><attalias Sync="TRUE">Geomorphic Setting</attalias>
+				<attrlabl>GeoSet</attrlabl>
 				<attrdef>The geomorphic setting indicates the major topographic features within the corresponding 5-m pixel of the vegetation type surface (see larger work).</attrdef>
 				<attrdefs>Producer defined</attrdefs>
 				<attrdomv>
@@ -773,8 +773,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 				</attrdomv>
 			</attr>
 			<attr>
-				<attrlabl Sync="TRUE">SubType</attrlabl>
-				<attalias Sync="TRUE">Substrate Type</attalias>
+				<attrlabl>SubType</attrlabl>
 				<attrdef>Substrate type: dominant type of substrate within the corresponding 5-m pixel of the substrate type surface (see larger work).</attrdef>
 				<attrdefs>Producer defined</attrdefs>
 				<attrdomv>
@@ -810,8 +809,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 				</attrdomv>
 			</attr>
 			<attr>
-				<attrlabl Sync="TRUE">VegDens</attrlabl>
-				<attalias Sync="TRUE">Vegetation Density</attalias>
+				<attrlabl>VegDens</attrlabl>
 				<attrdef>The dominant type of vegetation within the corresponding 5-m pixel of the vegetation type surface (see larger work).</attrdef>
 				<attrdefs>Producer defined</attrdefs>
 				<attrdomv>
@@ -847,7 +845,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 				</attrdomv>
 			</attr>
 			<attr>
-				<attrlabl Sync="TRUE">VegType</attrlabl><attalias Sync="TRUE">Vegetation Type</attalias>
+				<attrlabl>VegType</attrlabl>
 				<attrdef>The dominant type of vegetation within the corresponding 5-m pixel of the vegetation type surface (see larger work).</attrdef>
 				<attrdefs>Producer defined</attrdefs>
 				<attrdomv>
@@ -886,6 +884,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 						<edomvds>Producer defined</edomvds>
 					</edom>
 				</attrdomv>
+			</attr>
 	    <attr>
 	     <attrlabl>sort_ID</attrlabl>
 	     <attrdef>Unique identifier that orders transects sequentially along the shoreline.</attrdef>
@@ -1305,7 +1304,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     </attrdomv>
 	    </attr>
 			<attr>
-				<attrlabl Sync="TRUE">Construction</attrlabl>
+				<attrlabl>Construction</attrlabl>
 				<attrdef>Construction: denotes presence of construction-based human erosion management activities.</attrdef>
 				<attrdefs>Producer defined</attrdefs>
 				<attrdomv>
@@ -1341,7 +1340,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 				</attrdomv>
 			</attr>
 			<attr>
-				<attrlabl Sync="TRUE">Development</attrlabl>
+				<attrlabl>Development</attrlabl>
 				<attrdef>Development intensity: denotes intensity of human development.</attrdef>
 				<attrdefs>Producer defined</attrdefs>
 				<attrdomv>
@@ -1371,7 +1370,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 				</attrdomv>
 			</attr>
 			<attr>
-				<attrlabl Sync="TRUE">Nourishment</attrlabl>
+				<attrlabl>Nourishment</attrlabl>
 				<attrdef>Nourishmnent activity: denotes presence of nourishment-based human erosion management activities.</attrdef>
 				<attrdefs>Producer defined</attrdefs>
 				<attrdomv>
@@ -1445,7 +1444,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 		<techpreq>These data are available as a generic ASCII formatted data file. The user must have a software program capable of reading the comma-delimited data file. </techpreq>
 	</distinfo>
 	<metainfo>
-		<metd>20180110</metd>
+		<metd>20180119</metd>
 		<metc>
 			<cntinfo>
 					<cntperp>

@@ -6,7 +6,7 @@
         <origin>Sara L. Zeigler</origin>
         <origin>Benjamin T. Gutierrez</origin>
         <pubdate>2018</pubdate>
-        <title>Barrier island shoreline polygon at MHW (seaward face) and MTL (inland face) – Fire Island, 2012</title>
+        <title>Barrier island shoreline polygon at MHW (seaward face) and MTL (inland face) – Fire Island, 2010</title>
         <geoform>Vector Digital Data Set (Polygon)</geoform>
         <serinfo>
           <sername>Data Release</sername>
@@ -39,13 +39,14 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>Understanding the potential effects of sea level rise (SLR) on coastal landforms and the species and habitats they support will be critical for crafting approaches that balance the needs of both humans and native species. Given this increasing need to develop the capability to forecast sea-level rise impacts on barrier islands in the near- and long-term, we are developing Bayesian networks to evaluate and to forecast the cascading effects of sea level rise on shoreline change, barrier island state, and piping plover habitat availability. We use publicly available data products, i.e. lidar, orthophotography, and geomorphic feature sets derived from those, to extract metrics of barrier island characteristics at consistent sampling distances for incorporation into these models and into the training data used to parameterize these models. This data release contains the resulting metrics of barrier island geomorphology and spatial data layers of habitat characteristics that are input to Bayesian networks for piping plover habitat availability and barrier island geomorphology. These datasets and models are being developed at a range of coastal sites along the northeastern coast of the United States. This work is one component of a larger research and management program that seeks to understand and sustain ecological value, ecosystem services, and habitat suitability of beaches in the face of storm impacts, climate change, and sea-level rise. These data were produced for the barrier islands corresponding to the Fire Island National Seashore, NY.</abstract>
-      <purpose>The shoreline was automatically delineated to use in the creation of other files in this data release (see larger work). In particular, it was used as the time-specific outline of the island to constrain the 5-m points, measure the cross-island distance, measure the distance to tidal inlet, delineate the position of MHW to measure beach width, and was the basis of certain variables in the shorebird habitat model. </purpose>
+      <abstract>Understanding the potential effects of sea level rise (SLR) on coastal landforms and the species and habitats they support will be critical for crafting approaches that balance the needs of both humans and native species. Given this increasing need to develop the capability to forecast sea-level rise impacts on barrier islands in the near- and long-term, we are developing Bayesian networks to evaluate and to forecast the cascading effects of sea level rise on shoreline change, barrier island state, and piping plover habitat availability. We use publicly available data products, i.e. lidar, orthophotography, and geomorphic feature sets derived from those, to extract metrics of barrier island characteristics at consistent sampling distances for incorporation into these models and into the training data used to parameterize these models. This data release contains the resulting metrics of barrier island geomorphology and spatial data layers of habitat characteristics that are input to Bayesian networks for piping plover habitat availability and barrier island geomorphology. These datasets and models are being developed at a range of coastal sites along the northeastern coast of the United States. This work is one component of a larger research and management program that seeks to understand and sustain ecological value, ecosystem services, and habitat suitability of beaches in the face of storm impacts, climate change, and sea-level rise. These data were produced for the barrier islands corresponding to the Fire Island National Seashore, NY.
+      </abstract>
+      <purpose>The shoreline was automatically delineated to use in the creation of other files in this data release (see larger work). In particular, it was used as the time-specific outline of the island to constrain the 5-m points, measure the cross-island distance, measure the distance to tidal inlet, delineate the position of MHW to measure beach width, and was the basis of certain variables in the shorebird habitat model.</purpose>
     </descript>
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>2012</caldate>
+          <caldate>2010</caldate>
         </sngdate>
       </timeinfo>
       <current>ground condition</current>
@@ -56,10 +57,10 @@
     </status>
     <spdom>
       <bounding>
-        <westbc>-73.319935195</westbc>
-        <eastbc>-72.727205156</eastbc>
-        <northbc>40.787876579</northbc>
-        <southbc>40.610658635</southbc>
+        <westbc>-73.313951894</westbc>
+        <eastbc>-72.710268287</eastbc>
+        <northbc>40.789637867</northbc>
+        <southbc>40.610156514</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -194,17 +195,17 @@
       <srcinfo>
         <srccite>
           <citeinfo>
-            <origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Geodetic Survey (NGS), Remote Sensing Division</origin>
-            <pubdate>20151220</pubdate>
-            <title>2014 NOAA Post-Sandy Topobathymetric LiDAR: Void DEMs South Carolina to New York</title>
-            <geoform>map</geoform>
+            <origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM)</origin>
+            <origin>JALBTCX (Joint Airborne Lidar Bathymetry Technical Center of eXpertise)</origin>
+            <pubdate>20120501</pubdate>
+            <title>2010 US Army Corps of Engineers (USACE) Joint Airborne Lidar Bathymetry Technical Center of eXpertise (JALBTCX) Lidar: New York (Topo)</title>
             <pubinfo>
-              <pubplace>Silver Spring, MD</pubplace>
-              <publish>NOAA's Ocean Service, National Geodetic Survey (NGS)</publish>
-            </pubinfo>
-            <onlink>https://coast.noaa.gov/dataviewer/#/lidar/search/where:ID=4967</onlink>
-            <onlink>https://coast.noaa.gov/htdata/raster2/elevation/Post_Sandy_DEM_2014_4967</onlink>
+              <pubplace>Charleston, SC</pubplace>
+              <publish>NOAA's Ocean Service (NOS), Office for Coastal Management (OCM)</publish>
+            </pubinfo> <onlink>https://coast.noaa.gov/dataviewer/#/lidar/search/where:ID=1179</onlink>
+            <onlink>https://coast.noaa.gov/htdata/lidar1_z/geoid12a/data/1179</onlink>
             <onlink>https://coast.noaa.gov/dataviewer</onlink>
+            <onlink>https://coast.noaa.gov</onlink>
           </citeinfo>
         </srccite>
         <srcscale>24000</srcscale>
@@ -212,8 +213,8 @@
         <srctime>
           <timeinfo>
             <rngdates>
-              <begdate>201311</begdate>
-              <enddate>201406</enddate>
+              <begdate>20100819</begdate>
+              <enddate>20100827</enddate>
             </rngdates>
           </timeinfo>
           <srccurr>ground condition</srccurr>
@@ -224,10 +225,48 @@
       <srcinfo>
         <srccite>
           <citeinfo>
+            <origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Geodetic Survey (NGS), Remote Sensing Division</origin>
+            <pubdate>20150501</pubdate>
+            <title>2011 NOAA Ortho-rectified Color Mosaic of Fire Island, New York</title>
+            <geoform>remote-sensing image</geoform>
+            <pubinfo><pubplace>Silver Spring, MD</pubplace><publish>NOAA's Ocean Service, National Geodetic Survey (NGS)</publish></pubinfo>
+            <onlink>https://coast.noaa.gov/dataviewer/#/imagery/search/where:ID=1140</onlink>
+            <onlink>https://coast.noaa.gov/htdata/raster2/imagery/FireIslandNY_RGB_2011_1140</onlink>
+            <onlink>https://coast.noaa.gov/dataviewer</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20111125</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Orthomosaic</srccitea>
+        <srccontr>Visual imagery</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
             <origin>Kara S. Doran</origin>
+            <origin>Joseph W. Long</origin>
+            <origin>Hilary F. Stockdon</origin>
+            <origin>Justin J. Birchler</origin>
+            <origin>Matthew W. Hardy</origin>
+            <origin>Karen L.M. Morgan</origin>
+            <origin>Owen Brenner</origin>
             <pubdate>20170609</pubdate>
-            <title>2014 Post-Hurricane Sandy SC to NY NOAA NGS Lidar-Derived Dune Crest, Toe and Shoreline</title>
+            <title>
+            2010 New York USACE Lidar-Derived Dune Crest, Toe and Shoreline
+            </title>
             <geoform>tabular digital data</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Data Release</sername>
+              <issue>doi:10.5066/F7GF0S0Z</issue>
+            </serinfo>
             <pubinfo>
               <pubplace>St. Petersburg, FL</pubplace>
               <publish>U.S. Geological Survey</publish>
@@ -239,8 +278,8 @@
         <srctime>
           <timeinfo>
             <rngdates>
-              <begdate>20140108</begdate>
-              <enddate>20140727</enddate>
+            <begdate>20100819</begdate>
+            <enddate>20100827</enddate>
             </rngdates>
           </timeinfo>
           <srccurr>ground condition</srccurr>
@@ -249,11 +288,14 @@
         <srccontr>MHW shoreline and dune positions</srccontr>
       </srcinfo>
       <procstep>
-        <procdesc>Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (https://code.usgs.gov/xxxx).
+        <procdesc>
+          Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (https://code.usgs.gov/xxxx).
 
           The shoreline is produced using a combination of the DEM and the shoreline points (part of the geomorphic features). First, we derive MTL and MHW contour polygons from the DEM. Those polygons are combined to produce the full shoreline, which is considered to fall at MHW on the oceanside and MTL on the bayside (to include partially submerged wetland). Finally, the output full shoreline polygon is snapped to the shoreline points from the geomorphic features dataset anywhere the two datasets don't already match and as long as as they are within 25 m of each other.
+
+          The DEM used for this year did not extend across the full width of the island in many cases. These gaps were filled by manually delineating the marsh extent from the orthoimage.
         </procdesc>
-        <procdate>20171218</procdate>
+        <procdate>20180119</procdate>
       </procstep>
     </lineage>
   </dataqual>
@@ -262,7 +304,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>G-polygon</sdtstype>
-        <ptvctcnt>14</ptvctcnt>
+        <ptvctcnt>152</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -313,7 +355,7 @@
         <attrdomv>
           <rdom>
             <rdommin>0</rdommin>
-            <rdommax>99774.4261529</rdommax>
+            <rdommax>135931.651323</rdommax>
             <attrunit>meters</attrunit>
           </rdom>
         </attrdomv>
@@ -325,7 +367,7 @@
         <attrdomv>
           <rdom>
             <rdommin>0</rdommin>
-            <rdommax>16735162.8826</rdommax>
+            <rdommax>22062434.1038</rdommax>
             <attrunit>square meters</attrunit>
           </rdom>
         </attrdomv>
@@ -364,7 +406,7 @@
           <formspec>Esri polygon shapefile</formspec>
           <formcont>These files (.cpg, .dbf, .prj, .sbn, .sbx, .shp, .shp.xml, and .shx) are a collection of files with a common filename prefix and must be downloaded and stored in the same directory. Together they are the components of the shapefile and include FGDC compliant metadata.</formcont>
           <filedec>no compression applied</filedec>
-          <transize>0.145</transize>
+          <transize>0.4</transize>
         </digtinfo>
         <digtopt>
           <onlinopt>
@@ -385,7 +427,7 @@
     <techpreq>These data are available in a shapefile format. The user must have software to read and process the data components of a shapefile.</techpreq>
   </distinfo>
   <metainfo>
-    <metd>20171219</metd>
+    <metd>20180119</metd>
     <metc>
       <cntinfo>
         <cntperp>
