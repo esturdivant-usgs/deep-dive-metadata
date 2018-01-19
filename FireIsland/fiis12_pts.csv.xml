@@ -8,7 +8,7 @@
 				<origin>Sara L. Zeigler</origin>
 				<origin>Benjamin T. Gutierrez</origin>
 				<pubdate>2018</pubdate>
-				<title>Table of barrier island geomorphology and shorebird habitat metrics at points every 5 m along transects spaced 50-m alongshore – Fire Island, 2014</title>
+				<title>Table of barrier island geomorphology and shorebird habitat metrics at points every 5 m along transects spaced 50-m alongshore – Fire Island, 2012</title>
 				<geoform>tabular</geoform>
 				<serinfo>
 					<sername>Data Release</sername>
@@ -28,13 +28,13 @@
 						<title>Barrier island geomorphology and shorebird habitat metrics – Fire Island, NY, 2010–2014</title>
 						<serinfo>
 							<sername>Data Release</sername>
-							<issue>XXX</issue>
+							<issue>DOI:XXX</issue>
 						</serinfo>
 						<pubinfo>
 							<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
 							<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
 						</pubinfo>
-						<onlink>XXX</onlink>
+						<onlink>https://doi.org/XXXXX</onlink>
 					</citeinfo>
 				</lworkcit>
 			</citeinfo>
@@ -50,7 +50,7 @@
 		<timeperd>
 			<timeinfo>
 				<sngdate>
-					<caldate>2014</caldate>
+					<caldate>2012</caldate>
 				</sngdate>
 			</timeinfo>
 			<current>ground condition</current>
@@ -143,7 +143,7 @@
 			<browsed>Example views of the 5-m points displayed spatially. The points were projected from the easting and northing (seg_x, seg_y) and overlaid on the digital elevation model used during processing. Each panel displays the points colored by a different variables, as labeled.</browsed>
 			<browset>PNG</browset>
 		</browse>
-		<natvform Sync="TRUE">CSV</natvform>
+		<!-- <natvform Sync="TRUE">CSV</natvform> -->
 		<crossref>
 			<citeinfo>
 				<origin>Sara L. Zeigler</origin>
@@ -290,12 +290,26 @@
       </srcinfo>
 			<srcinfo>
         <srccite>
-					<citeinfo><origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Geodetic Survey (NGS), Remote Sensing Division</origin><origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM)</origin><pubdate>20151220</pubdate><title>2014 NOAA Post-Sandy Topobathymetric LiDAR: Void DEMs South Carolina to New York</title><geoform>map</geoform> <pubinfo> <pubplace>Silver Spring, MD</pubplace><publish>NOAA's Ocean Service, National Geodetic Survey (NGS)</publish> </pubinfo> <onlink>https://coast.noaa.gov/dataviewer/#/lidar/search/where:ID=4967</onlink> <onlink>https://coast.noaa.gov/htdata/raster2/elevation/Post_Sandy_DEM_2014_4967</onlink> <onlink>https://coast.noaa.gov/dataviewer</onlink></citeinfo>
+					<citeinfo>
+						<origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM)</origin>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>201306</pubdate>
+						<title>2012 U.S. Geological Survey Topographic Lidar: Northeast Atlantic Coast Post-Hurricane Sandy</title>
+						<geoform>las</geoform>
+						<pubinfo>
+							<pubplace>Charleston, SC</pubplace>
+							<publish>NOAA's Ocean Service, Office for Coastal Management (OCM)</publish>
+						</pubinfo>
+						<onlink>https://coast.noaa.gov/htdata/lidar1_z/geoid12a/data/2488</onlink>
+						<onlink>https://coast.noaa.gov/dataviewer/#/lidar/search/where:ID=2488</onlink>
+						<onlink>https://coast.noaa.gov/dataviewer</onlink>
+						<onlink>https://coast.noaa.gov</onlink>
+					</citeinfo>
         </srccite>
         <srcscale>24000</srcscale>
         <typesrc>digital data</typesrc>
         <srctime>
-					<timeinfo><rngdates><begdate>201311</begdate><enddate>201406</enddate></rngdates></timeinfo>
+					<timeinfo><rngdates><begdate>20121105</begdate><enddate>20121129</enddate></rngdates></timeinfo>
           <srccurr>ground condition</srccurr>
         </srctime>
         <srccitea>DEM</srccitea>
@@ -303,52 +317,68 @@
       </srcinfo>
 			<srcinfo>
         <srccite>
-					<citeinfo>
-						<origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Geodetic Survey (NGS), Remote Sensing Division</origin>
-						<pubdate>20150501</pubdate>
-						<title>2014 NOAA Ortho-rectified Mosaic of Hurricane Sandy Coastal Impact Area</title>
-						<geoform>remote-sensing image</geoform>
-						<pubinfo>
+          <citeinfo>
+            <origin>National Oceanic and Atmospheric Administration (NOAA)</origin>
+            <pubdate>20121111</pubdate>
+            <title>NOAA Hurricane Sandy Response Imagery</title>
+            <geoform>Raster Digital Data (Aerial Imagery)</geoform>
+            <pubinfo>
 							<pubplace>Silver Spring, MD</pubplace>
 							<publish>NOAA's Ocean Service, National Geodetic Survey (NGS)</publish>
-						</pubinfo>
-						<onlink>https://coast.noaa.gov/dataviewer/#/imagery/search/where:ID=4885</onlink>
-						<onlink>https://coast.noaa.gov/htdata/raster1/imagery/Sandy_2014_4885</onlink>
-						<onlink>https://coast.noaa.gov/dataviewer</onlink>
-					</citeinfo>
+            </pubinfo>
+            <onlink>https://geodesy.noaa.gov/storm_archive/storms/sandy/index.html</onlink>
+          </citeinfo>
         </srccite>
-        <srcscale>24000</srcscale>
+				<srcscale>24000</srcscale>
         <typesrc>digital data</typesrc>
         <srctime>
-					<timeinfo><rngdates><begdate>20140101</begdate><enddate>20140421</enddate></rngdates></timeinfo>
+          <timeinfo>
+            <rngdates>
+              <begdate>20121103</begdate>
+              <enddate>20121104</enddate>
+            </rngdates>
+          </timeinfo>
           <srccurr>ground condition</srccurr>
         </srctime>
         <srccitea>Orthomosaic</srccitea>
         <srccontr>Visual imagery</srccontr>
       </srcinfo>
 			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Kara S. Doran</origin>
-						<origin>Joseph W. Long</origin>
-						<origin>Hilary F. Stockdon</origin>
-						<origin>Justin J. Birchler</origin>
-						<origin>Matthew W. Hardy</origin>
-						<origin>Karen L.M. Morgan</origin>
-						<origin>Owen Brenner</origin>
-						<pubdate>20170609</pubdate>
-						<title>2014 Post-Hurricane Sandy SC to NY NOAA NGS Lidar-Derived Dune Crest, Toe and Shoreline</title>
-						<geoform>tabular digital data</geoform>
-						<serinfo><sername>U.S. Geological Survey Data Release</sername><issue>doi:10.5066/F7GF0S0Z</issue></serinfo>
-						<pubinfo><pubplace>St. Petersburg, FL</pubplace><publish>U.S. Geological Survey</publish></pubinfo>
-						<onlink>https://doi.org/10.5066/F7GF0S0Z</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>digital data</typesrc>
-				<srctime><timeinfo><rngdates><begdate>20140108</begdate><enddate>20140727</enddate></rngdates></timeinfo><srccurr>ground condition</srccurr></srctime>
-				<srccitea>geomorphic features</srccitea>
-				<srccontr>MHW shoreline and dune positions</srccontr>
-			</srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Kara S. Doran</origin>
+            <origin>Joseph W. Long</origin>
+            <origin>Hilary F. Stockdon</origin>
+            <origin>Justin J. Birchler</origin>
+            <origin>Matthew W. Hardy</origin>
+            <origin>Karen L.M. Morgan</origin>
+            <origin>Owen Brenner</origin>
+            <pubdate>20170609</pubdate>
+            <title>2012 Post-Hurricane Sandy Fire Island, New York Lidar-Derived Dune Crest, Toe and Shoreline</title>
+            <geoform>tabular digital data</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Data Release</sername>
+              <issue>DOI:10.5066/F7GF0S0Z</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>St. Petersburg, FL</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.5066/F7GF0S0Z</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20121105</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>geomorphic features</srccitea>
+        <srccontr>MHW shoreline and dune positions</srccontr>
+      </srcinfo>
 			<procstep>
 				<procdesc>
 Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (https://code.usgs.gov/XXXX).
@@ -401,7 +431,7 @@ Barrier Island Width (WidthLand) was calculated as the above-water distance betw
 			</procstep>
 			<procstep>
 				<procdesc>
-Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (https://code.usgs.gov/XXX).
+Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (http://code.usgs.gov/XXX).
 
 Nourishment, Construction, Development
 We manually assigned coded values for the attributes Nourishment, Construction, and Development by comparing the transect positions to ancillary datasets in a GIS. These datasets included the inventory of habitat modification (Rice 2015), available aerial imagery, and the development layer included in this data release. See the associated Methods OFR (Zeigler and others 2018) for details and example figures.
@@ -430,7 +460,7 @@ We manually assigned coded values for the attributes Nourishment, Construction, 
 			</procstep>
 			<procstep>
 				<procdesc>
-					Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (https://code.usgs.gov/XXXX).
+					Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (http://code.usgs.gov/XXX).
 
 The point dataset represents 5 m sampling of the land along each shore-normal transect (described in transects file in larger work and in Zeigler and others 2018). The 5-m point file was created from the supplemented NASC transects as follows: (1) Manually shorten overlapping transects to the first point of intersection. When a transect overlaps with a supplementary transect, shorten the supplementary transect to the intersection point.  (2) Clip the transects to the shoreline polygon of the barrier island, retaining only those portions of the transects that represent land. (3) Create a point along each transect every 5 m starting from the ocean-side shoreline.
 				</procdesc>
@@ -458,7 +488,7 @@ The point dataset represents 5 m sampling of the land along each shore-normal tr
 			</procstep>
 			<procstep>
 				<procdesc>
-Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (https://code.usgs.gov/XXXX).
+Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (http://code.usgs.gov/XXX).
 
 Point identifier
 We populate the 5-m points with a numerical identifier (SplitSort) of the 5-m data sampling points at a particular study site, sorted by order along shoreline and by distance from oceanside. SplitSort values are populated by sorting the points by sort_ID and Dist_Seg (see below).
@@ -548,16 +578,18 @@ To calculate the values, the data is passed between pandas dataframe format and 
 						<altdatum>North American Vertical Datum of 1988 (NAVD88)</altdatum>
 						<altres>0.001</altres>
 						<altunits>meters</altunits>
-						<altenc>Elevation values described in attribute information. </altenc>
+						<altenc>Attribute values</altenc>
 				</altsys>
 		</vertdef>
 	</spref>
 	<eainfo>
 		<detailed>
 			<enttyp>
-				<enttypl>fiis14_pts.csv</enttypl>
+				<enttypl>fiis12_pts.csv</enttypl>
 				<enttypd>Geomorphology metrics at discrete points along shore-normal transects. Transect-averaged values are also included.</enttypd>
 				<enttypds>Producer defined</enttypds>
+				<!-- <enttypt>CSV</enttypt>
+				<enttypc>86024</enttypc> -->
 			</enttyp>
 			<attr>
 	     <attrlabl>SplitSort</attrlabl>
@@ -565,8 +597,8 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdefs>Producer defined</attrdefs>
 	     <attrdomv>
 	      <rdom>
-	       <rdommin>7</rdommin>
-	       <rdommax>88860</rdommax>
+	       <rdommin>0</rdommin>
+	       <rdommax>94112</rdommax>
 	       <attrunit>integer</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -577,8 +609,8 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdefs>Producer defined</attrdefs>
 	     <attrdomv>
 	      <rdom>
-	       <rdommin>642452.5053</rdommin>
-	       <rdommax>691763.9121</rdommax>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>691774.0891</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -589,48 +621,12 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdefs>Producer defined</attrdefs>
 	     <attrdomv>
 	      <rdom>
-	       <rdommin>4498010.0582</rdommin>
-	       <rdommax>4516631.1258</rdommax>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>4516548.8192</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
 	    </attr>
-			<attr>
-			 <attrlabl>ptSlp</attrlabl>
-			 <attrdef>Mean slope of the corresponding 5-m pixel in the slope surface.</attrdef>
-			 <attrdefs>Producer defined</attrdefs>
-			 <attrdomv>
-				<rdom>
-				 <rdommin>0</rdommin>
-				 <rdommax>64.1434020996</rdommax>
-				 <attrunit>percent</attrunit>
-				</rdom>
-			 </attrdomv>
-			</attr>
-			<attr>
-			 <attrlabl>ptZ</attrlabl>
-			 <attrdef>Elevation referenced to NAVD88. Derived from the corresponding pixel in the 5-m DEM.</attrdef>
-			 <attrdefs>Producer defined</attrdefs>
-			 <attrdomv>
-				<rdom>
-				 <rdommin>-1.5</rdommin>
-				 <rdommax>12.0993766785</rdommax>
-				 <attrunit>meters</attrunit>
-				</rdom>
-			 </attrdomv>
-			</attr>
-			<attr>
-			 <attrlabl>sort_ID</attrlabl>
-			 <attrdef>Unique identifier that orders transects sequentially along the shoreline.</attrdef>
-			 <attrdefs>Producer defined</attrdefs>
-			 <attrdomv>
-				<rdom>
-				 <rdommin>8</rdommin>
-				 <rdommax>1070</rdommax>
-				 <attrunit>integer</attrunit>
-				</rdom>
-			 </attrdomv>
-			</attr>
 			<attr>
 	     <attrlabl>Dist_Seg</attrlabl>
 	     <attrdef>Along-transect distance to the mean high water (MHW) shoreline position.</attrdef>
@@ -638,23 +634,23 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>928.001162952</rdommax>
+	       <rdommax>950.00007</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
 	    </attr>
 			<attr>
-	     <attrlabl>DistSegArm</attrlabl>
-	     <attrdef>Distance to the armoring position along the same transect.</attrdef>
-	     <attrdefs>Producer defined</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>814.758399268</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
+			 <attrlabl>Dist_MHWbay</attrlabl>
+			 <attrdef>Distance of the point from the bayside shoreline.</attrdef>
+			 <attrdefs>Producer defined</attrdefs>
+			 <attrdomv>
+				<rdom>
+				 <rdommin>-99999</rdommin>
+				 <rdommax>952.407125</rdommax>
+				 <attrunit>meters</attrunit>
+				</rdom>
+			 </attrdomv>
+			</attr>
 	    <attr>
 	     <attrlabl>DistSegDH</attrlabl>
 	     <attrdef>Distance to the dune crest position along the same transect.</attrdef>
@@ -662,7 +658,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>862.308110136</rdommax>
+	       <rdommax>870.000385</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -674,70 +670,266 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>868.556542191</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-			<attr>
-	     <attrlabl>Dist_MHWbay</attrlabl>
-	     <attrdef>Distance of the point from the bayside shoreline.</attrdef>
-	     <attrdefs>Producer defined</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>1210.57186345</rdommax>
+	       <rdommax>876.248786</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
 	    </attr>
 	    <attr>
-	     <attrlabl>ptZmhw</attrlabl>
-	     <attrdef>Elevation referenced to MHW. Derived from the corresponding pixel in the 5-m DEM.</attrdef>
+	     <attrlabl>DistSegArm</attrlabl>
+	     <attrdef>Distance to the armoring position along the same transect.</attrdef>
 	     <attrdefs>Producer defined</attrdefs>
 	     <attrdomv>
 	      <rdom>
-	       <rdommin>-1.96000003815</rdommin>
-	       <rdommax>11.6393766403</rdommax>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>509.78740471273369</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+	    <attr>
+	     <attrlabl>ptSlp</attrlabl>
+	     <attrdef>Mean slope of the corresponding 5-m pixel in the slope surface.</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>62.704655</rdommax>
+	       <attrunit>percent</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+	    <attr>
+	     <attrlabl>ptZ</attrlabl>
+	     <attrdef>Elevation referenced to NAVD88. Derived from the corresponding pixel in the 5-m DEM.</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>12.173281</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
 	    </attr>
 			<attr>
-			 <attrlabl>Arm_zMHW</attrlabl>
-			 <attrdef>Height of the land at the armoring structure encountered along the transect, referenced to MHW.</attrdef>
-			 <attrdefs>Producer defined</attrdefs>
+	     <attrlabl>ptZmhw</attrlabl>
+	     <attrdef>Elevation referenced to MHW. Derived from the corresponding pixel in the 5-m DEM.</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>11.713281</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+			<attr>
+				<attrlabl>GeoSet</attrlabl>
+				<attrdef>The geomorphic setting indicates the major topographic features within the corresponding 5-m pixel of the vegetation type surface (see larger work).</attrdef>
+				<attrdefs>Producer defined</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv><edomvd>Beach. "The relatively thick and temporary accumulation of loose, water-borne material (usually well-sorted sand and pebbles, accompanied by mud, cobbles, boulders, and smoothed rock and shell fragments) that is in active transit along, or deposited on, the shore zone between the limits of low water and high water (2006). In this study, the Beach geomorphic setting occurred between the ocean- or sound-side study area boundary and the mean high water line (approximated for by the upper-most wrack line in the field)."</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>2</edomv><edomvd>Backshore. "The upper, usually dry, zone of the shore or beach, lying between the high-water line of mean spring tides and the upper limit of shore-zone processes; it is acted upon by waves or covered by water only during exceptionally severe storms or unusually high tides (Neuendorf et al. 2011). In this study, the Backshore geomorphic setting occurred between the mean high water line and either (i) the dune toe, (ii) the edge of developed areas, or (iii) the edge of dense vegetation (or forest)."</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>3</edomv><edomvd>Dunes. "A low mound, ridge, bank, or hill of loose, windblown granular material (generally sand), either bare or covered by vegetation, capable of movement from place to place but retaining its characteristic shape (Neuendorf et al. 2011). In this study, “dune” also describes low-lying areas between dunes (or “interdune” regions) that are part of the larger dune complex."</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Washover. "A fan of material deposited from the ocean landward on a mainland beach or barrier island, produced by storm waves breaking over low parts of the mainland beach or barrier and depositing sediment either landward (mainland beaches) or across a barrier island into the bay/sound (barrier islands). A washover typically displays a characteristic fan-like shape (Neuendorf et al. 2011)."</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>5</edomv><edomvd>Barrier Interior. "In this study, the Barrier Interior geomorphic setting described all areas spanning the interior boundary of the dunes (or backshore in the absence of dunes) on the ocean-side to the interior boundary of the marsh, dunes, or backshore on the back-barrier side. This setting was typically used to describe areas that did not fall into any other geomorphic setting (e.g., washovers, ridge/swale complexes)."</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>6</edomv><edomvd>Marsh. "A relatively flat, low-lying, intermittently water-covered area with generally halophytic grasses existing landward of a barrier island (Neuendorf et al. 2011)."</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>-99999</edomv>
+						<edomvd>Missing value.</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SubType</attrlabl>
+				<attrdef>Substrate type: dominant type of substrate within the corresponding 5-m pixel of the substrate type surface (see larger work).</attrdef>
+				<attrdefs>Producer defined</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>3333</edomv><edomvd>Mud/Peat. "A sticky, fine-grained, predominantly clay- or silt-sized marine detrital sediment (Neuendorf et al. 2011)."</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>4444</edomv><edomvd>Water. "In this study, we selected Water as the substrate type for any iPlover data point or location that (i) is always submerged (e.g., points several meters into the ocean, bay, or inland water body) or (ii) was submerged at the time of iPlover point collection (i.e., intertidal regions of beaches)."</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>6666</edomv><edomvd>Development. "In this study, we selected Development as the substrate type for any iPlover data point or location that fell within areas obviously influenced by anthropogenic activities (e.g., housing developments, paved roads or parking lots, recreational sports fields, etc.)."</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>{1111, 2222}</edomv><edomvd>Sand or Shell/Gravel/Cobble</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>-99999</edomv>
+						<edomvd>Unknown (or no data)</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>VegDens</attrlabl>
+				<attrdef>The dominant type of vegetation within the corresponding 5-m pixel of the vegetation type surface (see larger work).</attrdef>
+				<attrdefs>Producer defined</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>111</edomv><edomvd>None. No vegetation. "No vegetation observed in the 5 x 5 m area surrounding an iPlover data point or map cell."</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>555</edomv><edomvd>Development. "In this study, we selected Development as the vegetation density for any iPlover data point or location that fell within areas obviously influenced by anthropogenic activities (e.g., housing developments, paved roads or parking lots, recreational sports fields, etc.)."</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>{111, 222}</edomv><edomvd>None or Sparse.</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>{333, 444}</edomv><edomvd>Moderate or Dense.</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>-99999</edomv>
+						<edomvd>Unknown (or no data).</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>VegType</attrlabl>
+				<attrdef>The dominant type of vegetation within the corresponding 5-m pixel of the vegetation type surface (see larger work).</attrdef>
+				<attrdefs>Producer defined</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>11</edomv><edomvd>None. "Areas lacking vegetation of any type. Such areas were common on beaches, backshores, and washovers that frequently or recently experienced wave-action."</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>55</edomv><edomvd>Development. "In this study, we selected Development as the vegetation type for any iPlover data point or location that fell within areas obviously influenced by anthropogenic activities (e.g., housing developments, paved roads or parking lots, recreational sports fields, etc.)."</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>{11, 22}</edomv><edomvd>None or Herbaceous.</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>{22, 33}</edomv><edomvd>Herbaceous or Shrub.</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>{33, 44}</edomv><edomvd>Shrub or Forest.</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>-99999</edomv><edomvd>Unknown (or no data).</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+	    <attr>
+	     <attrlabl>sort_ID</attrlabl>
+	     <attrdef>Unique identifier that orders transects sequentially along the shoreline.</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>1</rdommin>
+	       <rdommax>1102</rdommax>
+	       <attrunit>integer</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+			<attr>
+			 <attrlabl>TRANSORDER</attrlabl>
+			 <attrdef>Transect identifier corresponding to that used in NASC transects.</attrdef>
+			 <attrdefs>Himmelstoss and others (2010)</attrdefs>
 			 <attrdomv>
 				<rdom>
 				 <rdommin>-99999</rdommin>
-				 <rdommax>7.59042072296</rdommax>
-				 <attrunit>meters</attrunit>
+				 <rdommax>2025</rdommax>
 				</rdom>
 			 </attrdomv>
 			</attr>
+	    <attr>
+	     <attrlabl>TRANSECTID</attrlabl>
+	     <attrdef>Transect identifier corresponding to that used in NASC transects.</attrdef>
+	     <attrdefs>Himmelstoss and others (2010)</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>4049</rdommax>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
 			<attr>
-		 	<attrlabl>DH_zMHW</attrlabl>
-		 	<attrdef>Height of the foredune along the transect referenced to MHW.</attrdef>
-		 	<attrdefs>Producer defined</attrdefs>
-		 	<attrdomv>
-		 	 <rdom>
-		 		<rdommin>-99999</rdommin>
-		 		<rdommax>9.980598</rdommax>
-		 		<attrunit>meters</attrunit>
-		 	 </rdom>
-		 	</attrdomv>
-		  </attr>
-			<attr>
-			 <attrlabl>DL_zMHW</attrlabl>
-			 <attrdef>Elevation of the foredune toe along the transect referenced to MHW.</attrdef>
-			 <attrdefs>Producer defined</attrdefs>
-			 <attrdomv>
-				<rdom>
-				 <rdommin>-99999</rdommin>
-				 <rdommax>4.971914</rdommax>
-				 <attrunit>meters</attrunit>
-				</rdom>
-			 </attrdomv>
+				<attrlabl>DD_ID</attrlabl>
+				<attrdef>Identifier that orders transects sequentially along the shoreline. Unique to the project, see Zeigler and others, 2018.</attrdef>
+				<attrdefs>Producer defined</attrdefs>
+				<attrdomv>
+	 				<rdom>
+	 				 <rdommin>10001</rdommin>
+	 				 <rdommax>11102</rdommax>
+	 				 <attrunit>integer</attrunit>
+	 				</rdom>
+ 			 </attrdomv>
 			</attr>
 			<attr>
 	     <attrlabl>LRR</attrlabl>
@@ -751,28 +943,6 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	      </rdom>
 	     </attrdomv>
 	    </attr>
-			<attr>
-	     <attrlabl>TRANSECTID</attrlabl>
-	     <attrdef>Transect identifier corresponding to that used in NASC transects.</attrdef>
-	     <attrdefs>Himmelstoss and others (2010)</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>4049</rdommax>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-			<attr>
-	     <attrlabl>TRANSORDER</attrlabl>
-	     <attrdef>Transect identifier corresponding to that used in NASC transects.</attrdef>
-	     <attrdefs>Himmelstoss and others (2010)</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>2025</rdommax>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
 	    <attr>
 	     <attrlabl>SL_x</attrlabl>
 	     <attrdef>Easting of position of MHW shoreline along transect.</attrdef>
@@ -780,7 +950,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>691811.201</rdommax>
+	       <rdommax>691774.089125</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -792,7 +962,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>4515869.3874</rdommax>
+	       <rdommax>4515827.4515</rdommax>
 	      </rdom>
 	     </attrdomv>
 	    </attr>
@@ -803,79 +973,19 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>-0.002302</rdommax>
+	       <rdommax>-0.000232</rdommax>
 	       <attrunit>percent</attrunit>
 	      </rdom>
 	     </attrdomv>
 	    </attr>
-	    <attr>
-	     <attrlabl>DH_x</attrlabl>
-	     <attrdef>Easting of the nearest dune crest point within 25 meters of the transect.</attrdef>
-	     <attrdefs>Doran and others, 2017</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>691783.488826</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-	    <attr>
-	     <attrlabl>DH_y</attrlabl>
-	     <attrdef>Northing of the nearest dune crest point within 25 meters of the transect.</attrdef>
-	     <attrdefs>Doran and others, 2017</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>4515934.956</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-	    <attr>
-	     <attrlabl>DH_z</attrlabl>
-	     <attrdef>Elevation of the nearest dune crest point within 25 meters of the transect, referenced to NAVD88.</attrdef>
-	     <attrdefs>Doran and others, 2017</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>10.440598</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-	    <attr>
-	     <attrlabl>DH_snapX</attrlabl>
-	     <attrdef>Easting of the nearest dune crest point within 25 meters of the transect, snapped to the transect.</attrdef>
-	     <attrdefs>Producer defined</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>691784.853696</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-	    <attr>
-	     <attrlabl>DH_snapY</attrlabl>
-	     <attrdef>Northing of the nearest dune crest point within 25 meters of the transect, snapped to the transect.</attrdef>
-	     <attrdefs>Producer defined</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>4515935.49993</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-	    <attr>
+			<attr>
 	     <attrlabl>DL_x</attrlabl>
 	     <attrdef>Easting of the nearest dune toe point within 25 meters of the transect.</attrdef>
 	     <attrdefs>Doran and others, 2017</attrdefs>
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>691791.789493</rdommax>
+	       <rdommax>689852.958400</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -887,7 +997,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>4515915.39426</rdommax>
+	       <rdommax>4515355.4041</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -899,7 +1009,19 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>5.431914</rdommax>
+	       <rdommax>5.845853</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+			<attr>
+	     <attrlabl>DL_zmhw</attrlabl>
+	     <attrdef>Elevation of the foredune toe along the transect referenced to MHW.</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>5.385853</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -911,7 +1033,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>691792.718678</rdommax>
+	       <rdommax>689844.900402</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -923,11 +1045,84 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>4515915.76456</rdommax>
+	       <rdommax>4515364.1457</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
 	    </attr>
+	    <attr>
+	     <attrlabl>DH_x</attrlabl>
+	     <attrdef>Easting of the nearest dune crest point within 25 meters of the transect.</attrdef>
+	     <attrdefs>Doran and others, 2017</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>693288.786200</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+	    <attr>
+	     <attrlabl>DH_y</attrlabl>
+	     <attrdef>Northing of the nearest dune crest point within 25 meters of the transect.</attrdef>
+	     <attrdefs>Doran and others, 2017</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>4516509.1758</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+	    <attr>
+	     <attrlabl>DH_z</attrlabl>
+	     <attrdef>Elevation of the nearest dune crest point within 25 meters of the transect, referenced to NAVD88.</attrdef>
+	     <attrdefs>Doran and others, 2017</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>11.757191</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+			<attr>
+	     <attrlabl>DH_zmhw</attrlabl>
+	     <attrdef>Height of the foredune along the transect referenced to MHW.</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>11.297191</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+	    <attr>
+	     <attrlabl>DH_snapX</attrlabl>
+	     <attrdef>Easting of the nearest dune crest point within 25 meters of the transect, snapped to the transect.</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>693280.002192</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+	    <attr>
+	     <attrlabl>DH_snapY</attrlabl>
+	     <attrdef>Northing of the nearest dune crest point within 25 meters of the transect, snapped to the transect.</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>4516505.67518</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+
 	    <attr>
 	     <attrlabl>Arm_x</attrlabl>
 	     <attrdef>Easting of armoring structure nearest to shoreline along transect.</attrdef>
@@ -935,7 +1130,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>691791.3</rdommax>
+	       <rdommax>680649.647600</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -947,7 +1142,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>4515919.3245</rdommax>
+	       <rdommax>4511411.4882</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -959,7 +1154,31 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>8.05042076111</rdommax>
+	       <rdommax>5.387920</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+			<attr>
+	     <attrlabl>Arm_zmhw</attrlabl>
+	     <attrdef>Height of the land at the armoring structure encountered along the transect, referenced to MHW.</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>4.927920</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+		 	</attr>
+	    <attr>
+	     <attrlabl>DistDH</attrlabl>
+	     <attrdef>Horizontal distance along transect from the MHW shoreline to the dune toe (DH_snapX, DH_snapY)</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>202.392206</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -971,19 +1190,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>189.511540581</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-			<attr>
-	     <attrlabl>DistDH</attrlabl>
-	     <attrdef>Horizontal distance along transect from the MHW shoreline to the dune toe (DH_snapX, DH_snapY)</attrdef>
-	     <attrdefs>Producer defined</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>245.174219104</rdommax>
+	       <rdommax>449.594338</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -995,7 +1202,55 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>135.312994548</rdommax>
+	       <rdommax>121.172399</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+			<attr>
+	     <attrlabl>Dist2Inlet</attrlabl>
+	     <attrdef>Alongshore distance to nearest inlet.</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>8630.524431</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+			<attr>
+	     <attrlabl>WidthPart</attrlabl>
+	     <attrdef>Horizontal distance between seaward shoreline and the first break in the land, such as intervening water bodies such as back barrier creeks.</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>952.407177</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+			<attr>
+	     <attrlabl>WidthLand</attrlabl>
+	     <attrdef>Barrier Island Width (m). Width of the barrier island cross-section. Measurement only considers width of land and not intervening water bodies such as back barrier creeks.</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>952.407177</rdommax>
+	       <attrunit>meters</attrunit>
+	      </rdom>
+	     </attrdomv>
+	    </attr>
+			<attr>
+	     <attrlabl>WidthFull</attrlabl>
+	     <attrdef>Barrier Island Full Width (m). Horizontal distance along transect from seaward shoreline to farthest bayside shoreline. Measurement includes considers width of land and not intervening water bodies such as back barrier creeks.</attrdef>
+	     <attrdefs>Producer defined</attrdefs>
+	     <attrdomv>
+	      <rdom>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>952.407177</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -1007,7 +1262,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>245.174219104</rdommax>
+	       <rdommax>449.594338</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -1019,55 +1274,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdomv>
 	      <rdom>
 	       <rdommin>-99999</rdommin>
-	       <rdommax>5.81109905243</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-	    <attr>
-	     <attrlabl>Dist2Inlet</attrlabl>
-	     <attrdef>Alongshore distance to nearest inlet.</attrdef>
-	     <attrdefs>Producer defined</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>-99999</rdommin>
-	       <rdommax>19013.0430587</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-			<attr>
-	     <attrlabl>WidthFull</attrlabl>
-	     <attrdef>Barrier Island Full Width (m). Horizontal distance along transect from seaward shoreline to farthest bayside shoreline. Measurement includes considers width of land and not intervening water bodies such as back barrier creeks.</attrdef>
-	     <attrdefs>Producer defined</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>26.6398040711</rdommin>
-	       <rdommax>1361.04817899</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-			<attr>
-	     <attrlabl>WidthLand</attrlabl>
-	     <attrdef>Barrier Island Width (m). Width of the barrier island cross-section. Measurement only considers width of land and not intervening water bodies such as back barrier creeks.</attrdef>
-	     <attrdefs>Producer defined</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>26.6398040711</rdommin>
-	       <rdommax>1281.5632489</rdommax>
-	       <attrunit>meters</attrunit>
-	      </rdom>
-	     </attrdomv>
-	    </attr>
-			<attr>
-	     <attrlabl>WidthPart</attrlabl>
-	     <attrdef>Horizontal distance between seaward shoreline and the first break in the land, such as intervening water bodies such as back barrier creeks.</attrdef>
-	     <attrdefs>Producer defined</attrdefs>
-	     <attrdomv>
-	      <rdom>
-	       <rdommin>26.6398040711</rdommin>
-	       <rdommax>1210.57186345</rdommax>
+	       <rdommax>5.385853</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -1078,8 +1285,8 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdefs>Producer defined</attrdefs>
 	     <attrdomv>
 	      <rdom>
-	       <rdommin>-0.129369646311</rdommin>
-	       <rdommax>4.94853830338</rdommax>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>4.976072</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
@@ -1090,12 +1297,48 @@ To calculate the values, the data is passed between pandas dataframe format and 
 	     <attrdefs>Producer defined</attrdefs>
 	     <attrdomv>
 	      <rdom>
-	       <rdommin>0.3235437572</rdommin>
-	       <rdommax>11.6393766403</rdommax>
+	       <rdommin>-99999</rdommin>
+	       <rdommax>11.713281</rdommax>
 	       <attrunit>meters</attrunit>
 	      </rdom>
 	     </attrdomv>
 	    </attr>
+			<attr>
+				<attrlabl>Construction</attrlabl>
+				<attrdef>Construction: denotes presence of construction-based human erosion management activities.</attrdef>
+				<attrdefs>Producer defined</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>111</edomv><edomvd>None-denotes no constructed features.</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>222</edomv><edomvd>Denotes presence of soft approaches (sand fencing, geotubes).</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>333</edomv><edomvd>Denotes presence of hard approaches (rip rap, seawall, jetty, groyne).</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>444</edomv><edomvd>Denotes presence of hard and soft approaches. </edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>-99999</edomv>
+						<edomvd>Missing value.</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
 			<attr>
 				<attrlabl>Development</attrlabl>
 				<attrdef>Development intensity: denotes intensity of human development.</attrdef>
@@ -1118,227 +1361,38 @@ To calculate the values, the data is passed between pandas dataframe format and 
 						<edomvds>Producer defined</edomvds>
 					</edom>
 				</attrdomv>
-				</attr>
-				<attr>
-					<attrlabl>Nourishment</attrlabl>
-					<attrdef>Nourishmnent activity: denotes presence of nourishment-based human erosion management activities.</attrdef>
-					<attrdefs>Producer defined</attrdefs>
-					<attrdomv>
-						<edom>
-							<edomv>111</edomv><edomvd>None.</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>222</edomv><edomvd>Denotes occasional nourishment.</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-				</attr>
-				<attr>
-					<attrlabl>Construction</attrlabl>
-					<attrdef>Construction: denotes presence of construction-based human erosion management activities.</attrdef>
-					<attrdefs>Producer defined</attrdefs>
-					<attrdomv>
-						<edom>
-							<edomv>111</edomv><edomvd>None-denotes no constructed features.</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>222</edomv><edomvd>Denotes presence of soft approaches (sand fencing, geotubes).</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>333</edomv><edomvd>Denotes presence of hard approaches (rip rap, seawall, jetty, groyne).</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>444</edomv><edomvd>Denotes presence of hard and soft approaches. </edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-				</attr>
-				<attr>
-					<attrlabl>GeoSet</attrlabl>
-					<attrdef>The geomorphic setting indicates the major topographic features within the corresponding 5-m pixel of the vegetation type surface (see larger work).</attrdef>
-					<attrdefs>Producer defined</attrdefs>
-					<attrdomv>
-						<edom>
-							<edomv>1</edomv><edomvd>Beach. "The relatively thick and temporary accumulation of loose, water-borne material (usually well-sorted sand and pebbles, accompanied by mud, cobbles, boulders, and smoothed rock and shell fragments) that is in active transit along, or deposited on, the shore zone between the limits of low water and high water (2006). In this study, the Beach geomorphic setting occurred between the ocean- or sound-side study area boundary and the mean high water line (approximated for by the upper-most wrack line in the field)."</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>2</edomv><edomvd>Backshore. "The upper, usually dry, zone of the shore or beach, lying between the high-water line of mean spring tides and the upper limit of shore-zone processes; it is acted upon by waves or covered by water only during exceptionally severe storms or unusually high tides (Neuendorf et al. 2011). In this study, the Backshore geomorphic setting occurred between the mean high water line and either (i) the dune toe, (ii) the edge of developed areas, or (iii) the edge of dense vegetation (or forest)."</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>3</edomv><edomvd>Dunes. "A low mound, ridge, bank, or hill of loose, windblown granular material (generally sand), either bare or covered by vegetation, capable of movement from place to place but retaining its characteristic shape (Neuendorf et al. 2011). In this study, “dune” also describes low-lying areas between dunes (or “interdune” regions) that are part of the larger dune complex."</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>4</edomv>
-							<edomvd>Washover. "A fan of material deposited from the ocean landward on a mainland beach or barrier island, produced by storm waves breaking over low parts of the mainland beach or barrier and depositing sediment either landward (mainland beaches) or across a barrier island into the bay/sound (barrier islands). A washover typically displays a characteristic fan-like shape (Neuendorf et al. 2011)."</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>5</edomv><edomvd>Barrier Interior. "In this study, the Barrier Interior geomorphic setting described all areas spanning the interior boundary of the dunes (or backshore in the absence of dunes) on the ocean-side to the interior boundary of the marsh, dunes, or backshore on the back-barrier side. This setting was typically used to describe areas that did not fall into any other geomorphic setting (e.g., washovers, ridge/swale complexes)."</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>6</edomv><edomvd>Marsh. "A relatively flat, low-lying, intermittently water-covered area with generally halophytic grasses existing landward of a barrier island (Neuendorf et al. 2011)."</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>-99999</edomv>
-							<edomvd>Missing value.</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-				</attr>
-				<attr>
-					<attrlabl>SubType</attrlabl>
-					<attrdef>Substrate type: dominant type of substrate within the corresponding 5-m pixel of the substrate type surface (see larger work).</attrdef>
-					<attrdefs>Producer defined</attrdefs>
-					<attrdomv>
-						<edom>
-							<edomv>3333</edomv><edomvd>Mud/Peat. "A sticky, fine-grained, predominantly clay- or silt-sized marine detrital sediment (Neuendorf et al. 2011)."</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>4444</edomv><edomvd>Water. "In this study, we selected Water as the substrate type for any iPlover data point or location that (i) is always submerged (e.g., points several meters into the ocean, bay, or inland water body) or (ii) was submerged at the time of iPlover point collection (i.e., intertidal regions of beaches)."</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>6666</edomv><edomvd>Development. "In this study, we selected Development as the substrate type for any iPlover data point or location that fell within areas obviously influenced by anthropogenic activities (e.g., housing developments, paved roads or parking lots, recreational sports fields, etc.)."</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>{1111, 2222}</edomv><edomvd>Sand or Shell/Gravel/Cobble</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>-99999</edomv>
-							<edomvd>Unknown (or no data)</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-				</attr>
-				<attr>
-					<attrlabl>VegDens</attrlabl>
-					<attrdef>The dominant type of vegetation within the corresponding 5-m pixel of the vegetation type surface (see larger work).</attrdef>
-					<attrdefs>Producer defined</attrdefs>
-					<attrdomv>
-						<edom>
-							<edomv>111</edomv><edomvd>None. No vegetation. "No vegetation observed in the 5 x 5 m area surrounding an iPlover data point or map cell."</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>555</edomv><edomvd>Development. "In this study, we selected Development as the vegetation density for any iPlover data point or location that fell within areas obviously influenced by anthropogenic activities (e.g., housing developments, paved roads or parking lots, recreational sports fields, etc.)."</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>{111, 222}</edomv><edomvd>None or Sparse.</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>{333, 444}</edomv><edomvd>Moderate or Dense.</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>-99999</edomv>
-							<edomvd>Unknown (or no data).</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-				</attr>
-				<attr>
-					<attrlabl>VegType</attrlabl>
-					<attrdef>The dominant type of vegetation within the corresponding 5-m pixel of the vegetation type surface (see larger work).</attrdef>
-					<attrdefs>Producer defined</attrdefs>
-					<attrdomv>
-						<edom>
-							<edomv>11</edomv><edomvd>None. "Areas lacking vegetation of any type. Such areas were common on beaches, backshores, and washovers that frequently or recently experienced wave-action."</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>55</edomv><edomvd>Development. "In this study, we selected Development as the vegetation type for any iPlover data point or location that fell within areas obviously influenced by anthropogenic activities (e.g., housing developments, paved roads or parking lots, recreational sports fields, etc.)."</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>{11, 22}</edomv><edomvd>None or Herbaceous.</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>{22, 33}</edomv><edomvd>Herbaceous or Shrub.</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>{33, 44}</edomv><edomvd>Shrub or Forest.</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-					<attrdomv>
-						<edom>
-							<edomv>-99999</edomv><edomvd>Unknown (or no data).</edomvd>
-							<edomvds>Producer defined</edomvds>
-						</edom>
-					</attrdomv>
-				</attr>
-				<attr>
-					<attrlabl>DD_ID</attrlabl>
-					<attrdef>Identifier that orders transects sequentially along the shoreline. Unique to the project, see Zeigler and others, 2018.</attrdef>
-					<attrdefs>Producer defined</attrdefs>
-					<attrdomv>
-						<rdom>
-						 <rdommin>10008</rdommin>
-						 <rdommax>11070</rdommax>
-						 <attrunit>integer</attrunit>
-						</rdom>
-				 </attrdomv>
-				</attr>
+				<attrdomv>
+					<edom>
+						<edomv>-99999</edomv>
+						<edomvd>Missing value.</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Nourishment</attrlabl>
+				<attrdef>Nourishmnent activity: denotes presence of nourishment-based human erosion management activities.</attrdef>
+				<attrdefs>Producer defined</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>111</edomv><edomvd>None.</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>222</edomv><edomvd>Denotes occasional nourishment.</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>-99999</edomv>
+						<edomvd>Missing value.</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
 		</detailed>
 		<overview>
 			<eaover>Geomorphology metrics at discrete points along shore-normal transects. Transect-averaged values are also included. Each point represents a 5 x 5 m sample area with the geomorphological characteristics specified. All calculations for length are in meter units and were based on the UTM zone 18N NAD83 projection. Missing values are indicated with the value -99999. The entity and attribute information provided here describes the tabular data associated with the dataset. Please review the individual attribute descriptions for detailed information.</eaover>
@@ -1370,7 +1424,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 				<digtinfo>
 					<formname>CSV</formname>
 					<filedec>no compression applied</filedec>
-					<transize>42</transize>
+					<transize>61</transize>
 				</digtinfo>
 				<digtopt>
 					<onlinopt>
@@ -1390,7 +1444,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 		<techpreq>These data are available as a generic ASCII formatted data file. The user must have a software program capable of reading the comma-delimited data file. </techpreq>
 	</distinfo>
 	<metainfo>
-		<metd>20171215</metd>
+		<metd>20180119</metd>
 		<metc>
 			<cntinfo>
 					<cntperp>
