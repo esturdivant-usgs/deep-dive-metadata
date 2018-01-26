@@ -140,7 +140,7 @@
 		</ptcontac>
 		<browse>
 			<browsen>XXXX.png</browsen>
-			<browsed>Browse graphic of the beach width surface created from the populated transects.</browsed>
+			<browsed>Example beach width surface created from populated transects.</browsed>
 			<browset>PNG</browset>
 		</browse>
 		<native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.5 (Build 6491) Service Pack N/A (Build N/A)</native>
