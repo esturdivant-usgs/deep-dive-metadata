@@ -20,28 +20,30 @@
 				</pubinfo>
 				<onlink>XXX</onlink>
 				<lworkcit>
-					<citeinfo>
-						<origin>Emily J. Sturdivant</origin>
-						<origin>Sara L. Zeigler</origin>
-						<origin>Benjamin T. Gutierrez</origin>
-						<pubdate>2018</pubdate>
-						<title>Barrier island geomorphology and shorebird habitat metrics – Fire Island, NY, 2010–2014</title>
-						<serinfo>
-							<sername>Data Release</sername>
-							<issue>XXX</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
-							<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
-						</pubinfo>
-						<onlink>XXX</onlink>
+          <citeinfo>
+            <origin>Emily J. Sturdivant</origin>
+            <origin>Sara L. Zeigler</origin>
+            <origin>Benjamin T. Gutierrez</origin>
+            <origin>Kathryn M. Weber</origin>
+            <pubdate>2018</pubdate>
+            <title>Barrier island geomorphology and shorebird habitat metrics at four sites in New York, New Jersey, and Virginia, 2010–2014</title>
+            <serinfo>
+              <sername>Data Release</sername>
+              <issue>XXX</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+              <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+            </pubinfo>
+            <othercit>Suggested citation: Sturdivant, E.J., Zeigler, S.L., Gutierrez, B.J., and Weber, K.M., 2018, Barrier island geomorphology and shorebird habitat metrics at four sites in New York, New Jersey, and Virginia, 2010–2014: U.S. Geological Survey data release, https://doi.org/10.5066/XXXXX.</othercit>
+            <onlink>XXX</onlink>
 					</citeinfo>
 				</lworkcit>
 			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>
-				Understanding the potential effects of sea level rise (SLR) on coastal landforms and the species and habitats they support will be critical for crafting approaches that balance the needs of both humans and native species. Given this increasing need to develop the capability to forecast sea-level rise impacts on barrier islands in the near- and long-term, we are developing Bayesian networks to evaluate and to forecast the cascading effects of sea level rise on shoreline change, barrier island state, and piping plover habitat availability. We use publicly available data products, i.e. lidar, orthophotography, and geomorphic feature sets derived from those, to extract metrics of barrier island characteristics at consistent sampling distances for incorporation into these models and into the training data used to parameterize these models. This data release contains the resulting metrics of barrier island geomorphology and spatial data layers of habitat characteristics that are input to Bayesian networks for piping plover habitat availability and barrier island geomorphology.  These datasets and models are being developed at a range of coastal sites along the northeastern coast of the United States.  This work is one component of a larger research and management program that seeks to understand and sustain ecological value, ecosystem services, and habitat suitability of beaches in the face of storm impacts, climate change, and sea-level rise. These data were produced for the barrier islands corresponding to the Fire Island National Seashore, NY.
+				Understanding the potential effects of sea level rise (SLR) on coastal landforms and the species and habitats they support will be critical for crafting approaches that balance the needs of both humans and native species. Given this increasing need to develop the capability to forecast sea-level rise impacts on barrier islands in the near- and long-term, we are developing Bayesian networks to evaluate and to forecast the cascading effects of sea level rise on shoreline change, barrier island state, and piping plover habitat availability. We use publicly available data products, i.e. lidar, orthophotography, and geomorphic feature sets derived from those, to extract metrics of barrier island characteristics at consistent sampling distances for incorporation into these models and into the training data used to parameterize these models. This data release contains the resulting metrics of barrier island geomorphology and spatial data layers of habitat characteristics that are input to Bayesian networks for piping plover habitat availability and barrier island geomorphology. These datasets and models are being developed at a range of coastal sites along the northeastern coast of the United States. This work is one component of a larger research and management program that seeks to understand and sustain ecological value, ecosystem services, and habitat suitability of beaches in the face of storm impacts, climate change, and sea-level rise. These data were produced for the barrier islands corresponding to the Fire Island National Seashore, NY.
 			</abstract>
 			<purpose>
 				The shoreline was automatically delineated to use in the creation of other files in this set of data. In particular, it was used as the time-specific outline of the island to clip the 5-m points, measure the island width, the distance to inlet from each transect, and the position of MHW to measure beach width. It was used as the analysis boundary for the Bayesian network input data, for clipping the raster surfaces.
@@ -61,11 +63,11 @@
 		</status>
 		<spdom>
 			<bounding>
-        <westbc>-73.315993279</westbc>
-        <eastbc>-72.629036809</eastbc>
-        <northbc>40.812058789</northbc>
-        <southbc>40.608468573</southbc>
-      </bounding>
+				<westbc>-73.315993279</westbc>
+				<eastbc>-72.629036809</eastbc>
+				<northbc>40.812058789</northbc>
+				<southbc>40.608468573</southbc>
+			</bounding>
 		</spdom>
 		<keywords>
 			<theme>
@@ -96,13 +98,15 @@
 				<themekey>oceans</themekey>
 				<themekey>elevation</themekey>
 				<themekey>environment</themekey>
-				<themekey>oceans and estuaries</themekey>
-				<themekey>oceans and coastal</themekey>
-				<themekey>geoscientific information</themekey>
+        <themekey>biota</themekey>
+        <themekey>geoscientificInformation</themekey>
 			</theme>
 			<theme>
-					<themekt>USGS Thesaurus</themekt>
-					<themekey>geospatial datasets</themekey>
+				<themekt>USGS Thesaurus</themekt>
+				<themekey>geospatial datasets</themekey>
+        <themekey>geospatial analysis</themekey>
+        <themekey>coastal processes</themekey>
+        <themekey>geomorphology</themekey>
 			</theme>
 			<place>
 				<placekt>General</placekt>
@@ -120,22 +124,22 @@
 		<useconst>Public domain data from the U.S. Government are freely redistributable with proper metadata and source attribution. Please recognize the U.S. Geological Survey (USGS) as the source of this information.</useconst>
 		<ptcontac>
 			<cntinfo>
-					<cntperp>
-							<cntper>Emily Sturdivant</cntper>
-							<cntorg>U.S. Geological Survey</cntorg>
-					</cntperp>
-					<cntpos>Geographer</cntpos>
-					<cntaddr>
-							<addrtype>mailing and physical</addrtype>
-							<address>384 Woods Hole Road</address>
-							<city>Woods Hole</city>
-							<state>MA</state>
-							<postal>02543-1598</postal>
-							<country>USA</country>
-					</cntaddr>
-					<cntvoice>(508) 548-8700 x2230</cntvoice>
-					<cntfax>(508) 457-2310</cntfax>
-					<cntemail>esturdivant@usgs.gov</cntemail>
+				<cntperp>
+					<cntper>Emily Sturdivant</cntper>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntperp>
+				<cntpos>Geographer</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>384 Woods Hole Road</address>
+					<city>Woods Hole</city>
+					<state>MA</state>
+					<postal>02543-1598</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(508) 548-8700 x2230</cntvoice>
+				<cntfax>(508) 457-2310</cntfax>
+				<cntemail>esturdivant@usgs.gov</cntemail>
 			</cntinfo>
 		</ptcontac>
 		<browse>
@@ -177,7 +181,7 @@
 					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
 					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
 				</pubinfo>
-				<onlink>http://pubs.usgs.gov/of/2005/1027/</onlink>
+				<onlink>https://pubs.usgs.gov/of/2005/1027</onlink>
 			</citeinfo>
 		</crossref>
 	</idinfo>
@@ -186,59 +190,89 @@
 			<attraccr>The interior of the polygons represent the area that is above-water majority of the time. The outlines were compared to ancillary datasets, such as elevation and orthoimagery. The delineation is highly generalized and should not be used for any purpose that requires precision or accuracy, such as navigation or engineering.</attraccr>
 		</attracc>
 		<logic>This shapefile consists of polygon data produced from elevation data and tidal datum values through an automated process described below. It was not checked for topological consistency.</logic>
-		<complete>The polygons present a generalized shoreline. The generalization was performed with cartography tools in ArcGIS 10.3. Polygons within 30 m of each other were aggregated and land masses and polygon holes less than 300 m2 were eliminated (Aggregate Polygons tool in Cartography toolbox). </complete>
+		<complete>The polygons present a generalized shoreline. The generalization was performed with cartography tools in ArcGIS 10.3. Polygons within 30 m of each other were aggregated and land masses and polygon holes less than 300 m2 were eliminated (Aggregate Polygons tool in Cartography toolbox).
+		</complete>
 		<posacc>
 			<horizpa>
-				<horizpar>The horizontal positional accuracy is assumed to be correct because of the processes used for georeferencing the source data. </horizpar>
+				<horizpar>The horizontal positional accuracy is assumed to be correct because of the processes used for georeferencing the source data.
+				</horizpar>
 			</horizpa>
 			<vertacc>
 				<vertaccr>N/A</vertaccr>
 			</vertacc>
 		</posacc>
 		<lineage>
-			<srcinfo><srccite><citeinfo><origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Geodetic Survey (NGS), Remote Sensing Division</origin><origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM)</origin><pubdate>20151220</pubdate><title>2014 NOAA Post-Sandy Topobathymetric LiDAR: Void DEMs South Carolina to New York</title><geoform>map</geoform> <pubinfo> <pubplace>Silver Spring, MD</pubplace><publish>NOAA's Ocean Service, National Geodetic Survey (NGS)</publish> </pubinfo> <onlink>https://coast.noaa.gov/dataviewer/#/lidar/search/where:ID=4967</onlink> <onlink>https://coast.noaa.gov/htdata/raster2/elevation/Post_Sandy_DEM_2014_4967</onlink> <onlink>https://coast.noaa.gov/dataviewer</onlink></citeinfo></srccite><srcscale>24000</srcscale><typesrc>digital data</typesrc> <srctime><timeinfo><rngdates><begdate>201311</begdate><enddate>201406</enddate></rngdates></timeinfo> <srccurr>ground condition</srccurr></srctime><srccitea>DEM</srccitea><srccontr>Elevation</srccontr></srcinfo>
 			<srcinfo>
-			<srccite>
-				<citeinfo>
-					<origin>Kara S. Doran</origin>
-					<origin>Joseph W. Long</origin>
-					<origin>Hilary F. Stockdon</origin>
-					<origin>Justin J. Birchler</origin>
-					<origin>Matthew W. Hardy</origin>
-					<origin>Karen L.M. Morgan</origin>
-					<origin>Owen Brenner</origin>
-					<pubdate>20170609</pubdate>
-					<title>2014 Post-Hurricane Sandy SC to NY NOAA NGS Lidar-Derived Dune Crest, Toe and Shoreline</title>
-					<geoform>tabular digital data</geoform>
-					<serinfo>
-						<sername>U.S. Geological Survey Data Release</sername>
-						<issue>doi:10.5066/F7GF0S0Z</issue>
-					</serinfo>
-					<pubinfo>
-						<pubplace>St. Petersburg, FL</pubplace>
-						<publish>U.S. Geological Survey</publish>
-					</pubinfo>
-					<onlink>https://doi.org/10.5066/F7GF0S0Z</onlink>
-				</citeinfo>
-			</srccite>
-			<typesrc>digital data</typesrc>
-			<srctime>
-				<timeinfo>
-					<rngdates>
-						<begdate>20140108</begdate>
-						<enddate>20140727</enddate>
-					</rngdates>
-				</timeinfo>
-				<srccurr>ground condition</srccurr>
-			</srctime>
-			<srccitea>geomorphic features</srccitea>
-			<srccontr>MHW shoreline and dune positions</srccontr>
-		</srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Geodetic Survey (NGS), Remote Sensing Division</origin>
+						<origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM)</origin>
+						<pubdate>20151220</pubdate>
+						<title>2014 NOAA Post-Sandy Topobathymetric LiDAR: Void DEMs South Carolina to New York</title>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>Silver Spring, MD</pubplace>
+							<publish>NOAA's Ocean Service, National Geodetic Survey (NGS)</publish>
+						</pubinfo>
+						<onlink>https://coast.noaa.gov/dataviewer/#/lidar/search/where:ID=4967</onlink>
+						<onlink>https://coast.noaa.gov/htdata/raster2/elevation/Post_Sandy_DEM_2014_4967</onlink>
+						<onlink>https://coast.noaa.gov/dataviewer</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>digital data</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>201311</begdate>
+							<enddate>201406</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>DEM</srccitea>
+				<srccontr>Elevation</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Kara S. Doran</origin>
+						<origin>Joseph W. Long</origin>
+						<origin>Hilary F. Stockdon</origin>
+						<origin>Justin J. Birchler</origin>
+						<origin>Matthew W. Hardy</origin>
+						<origin>Karen L.M. Morgan</origin>
+						<origin>Owen Brenner</origin>
+						<pubdate>20170609</pubdate>
+						<title>2014 Post-Hurricane Sandy SC to NY NOAA NGS Lidar-Derived Dune Crest, Toe and Shoreline</title>
+						<geoform>tabular digital data</geoform>
+						<serinfo>
+							<sername>U.S. Geological Survey Data Release</sername>
+							<issue>doi:10.5066/F7GF0S0Z</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>St. Petersburg, FL</pubplace>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+						<onlink>https://doi.org/10.5066/F7GF0S0Z</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>digital data</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>20140108</begdate>
+							<enddate>20140727</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>geomorphic features</srccitea>
+				<srccontr>MHW shoreline and dune positions</srccontr>
+			</srcinfo>
 			<procstep>
-				<procdesc>Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (https://code.usgs.gov/xxxx).
-
-The shoreline is produced through a combination of the DEM and the shoreline points in the geomorphic features. First, we derive MTL and MHW contour polygons from the DEM. Those polygons are combined to produce the full shoreline, which is considered to fall at MHW on the oceanside and MTL on the bayside (to include partially submerged wetland). Finally, the output full shoreline polygon is snapped to the shoreline points from the geomorphic features dataset anywhere the two datasets don't already match and as long as as they are within 25 m of each other.
-</procdesc>
+				<procdesc>Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (https://code.usgs.gov/xxxx). The shoreline is produced through a combination of the DEM and the shoreline points in the geomorphic features. First, we derive MTL and MHW contour polygons from the DEM. Those polygons are combined to produce the full shoreline, which is considered to fall at MHW on the oceanside and MTL on the bayside (to include partially submerged wetland). Finally, the output full shoreline polygon is snapped to the shoreline points from the geomorphic features dataset anywhere the two datasets don't already match and as long as as they are within 25 m of each other.
+				</procdesc>
 				<procdate>20170224</procdate>
 				<proccont>
 					<cntinfo>
@@ -265,83 +299,83 @@ The shoreline is produced through a combination of the DEM and the shoreline poi
 	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
-    <ptvctinf>
-      <sdtsterm>
-        <sdtstype>G-polygon</sdtstype>
-        <ptvctcnt>3</ptvctcnt>
-      </sdtsterm>
-    </ptvctinf>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>3</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
 	</spdoinfo>
 	<spref>
 		<horizsys>
-      <planar>
-        <gridsys>
-          <gridsysn>Universal Transverse Mercator</gridsysn>
-          <utm>
-            <utmzone>18</utmzone>
-            <transmer>
-              <sfctrmer>0.9996</sfctrmer>
-              <longcm>-75.0</longcm>
-              <latprjo>0.0</latprjo>
-              <feast>500000.0</feast>
-              <fnorth>0.0</fnorth>
-            </transmer>
-          </utm>
-        </gridsys>
+			<planar>
+				<gridsys>
+					<gridsysn>Universal Transverse Mercator</gridsysn>
+					<utm>
+						<utmzone>18</utmzone>
+						<transmer>
+							<sfctrmer>0.9996</sfctrmer>
+							<longcm>-75.0</longcm>
+							<latprjo>0.0</latprjo>
+							<feast>500000.0</feast>
+							<fnorth>0.0</fnorth>
+						</transmer>
+					</utm>
+				</gridsys>
 				<planci>
-          <plance>coordinate pair</plance>
-          <coordrep>
-            <absres>0.6096</absres>
-            <ordres>0.6096</ordres>
-          </coordrep>
-          <plandu>Meter</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>D_North_American_1983</horizdn>
-        <ellips>GRS_1980</ellips>
-        <semiaxis>6378137.0</semiaxis>
-        <denflat>298.257222101</denflat>
-      </geodetic>
-    </horizsys>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.6096</absres>
+						<ordres>0.6096</ordres>
+					</coordrep>
+					<plandu>Meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D_North_American_1983</horizdn>
+				<ellips>GRS_1980</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257222101</denflat>
+			</geodetic>
+		</horizsys>
 	</spref>
 	<eainfo>
-    <detailed>
-      <enttyp>
-        <enttypl>Attribute Table</enttypl>
-        <enttypd>Table containing attribute information associated with the data set.</enttypd>
-        <enttypds>Producer defined</enttypds>
-      </enttyp>
-      <attr>
-        <attrlabl>Shape_Leng</attrlabl>
-        <attrdef>Length of the feature.</attrdef>
-        <attrdefs>Producer defined</attrdefs>
-        <attrdomv>
-          <rdom>
-            <rdommin>31917.526278</rdommin>
-            <rdommax>92312.5963859</rdommax>
-            <attrunit>meters</attrunit>
-          </rdom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>Shape_Area</attrlabl>
-        <attrdef>Area of the feature.</attrdef>
-        <attrdefs>Producer defined</attrdefs>
-        <attrdomv>
-          <rdom>
-            <rdommin>4081522.29883</rdommin>
-            <rdommax>15452666.9803</rdommax>
-            <attrunit>square meters</attrunit>
-          </rdom>
-        </attrdomv>
-      </attr>
-    </detailed>
+		<detailed>
+			<enttyp>
+				<enttypl>Attribute Table</enttypl>
+				<enttypd>Table containing attribute information associated with the data set.</enttypd>
+				<enttypds>Producer defined</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>Shape_Leng</attrlabl>
+				<attrdef>Length of the feature.</attrdef>
+				<attrdefs>Producer defined</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>31917.526278</rdommin>
+						<rdommax>92312.5963859</rdommax>
+						<attrunit>meters</attrunit>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Area of the feature.</attrdef>
+				<attrdefs>Producer defined</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>4081522.29883</rdommin>
+						<rdommax>15452666.9803</rdommax>
+						<attrunit>square meters</attrunit>
+					</rdom>
+				</attrdomv>
+			</attr>
+		</detailed>
 		<overview>
 			<eaover>Geometry values for the shoreline polygons.</eaover>
 			<eadetcit>Methods Open-File Report by Zeigler and others 2018</eadetcit>
 		</overview>
-  </eainfo>
+	</eainfo>
 	<distinfo>
 		<distrib>
 			<cntinfo>
@@ -364,27 +398,27 @@ The shoreline is produced through a combination of the DEM and the shoreline poi
 		<distliab>Neither the U.S. Government, the Department of the Interior, nor the USGS, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data or related materials. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
 		<stdorder>
 			<digform>
-					<digtinfo>
-		          <formname>Vector Digital Data Set (Polygon)</formname>
-		          <formvern>ArcGIS 10.5</formvern>
-		          <formspec>Esri polygon shapefile</formspec>
-		          <formcont>These files (.cpg, .dbf, .prj, .sbn, .sbx, .shp, .shp.xml, and .shx) are a collection of files with a common filename prefix and must be downloaded and stored in the same directory. Together they are the components of the shapefile and include FGDC compliant metadata.</formcont>
-		          <filedec>no compression applied</filedec>
-							<transize>0.145</transize>
-					</digtinfo>
-					<digtopt>
-							<onlinopt>
-									<computer>
-											<networka>
-													<networkr>https://www.sciencebase.gov/catalog/item/XXX</networkr>
-													<networkr>https://www.sciencebase.gov/catalog/file/get/XXX</networkr>
-													<networkr>https://www.sciencebase.gov/catalog/file/get/XXX</networkr>
-													<networkr>https://doi.org/10.5066/XXX</networkr>
-											</networka>
-									</computer>
-									<accinstr>The first link is to the page containing the data. The second is a direct link to download all contents of the data webpage as a zipped file. The third link is a direct link to download a zipped file with the data and metadata. And the final link is to the publication landing page.</accinstr>
-							</onlinopt>
-					</digtopt>
+				<digtinfo>
+					<formname>Vector Digital Data Set (Polygon)</formname>
+					<formvern>ArcGIS 10.5</formvern>
+					<formspec>Esri polygon shapefile</formspec>
+					<formcont>These files (.cpg, .dbf, .prj, .sbn, .sbx, .shp, .shp.xml, and .shx) are a collection of files with a common filename prefix and must be downloaded and stored in the same directory. Together they are the components of the shapefile and include FGDC compliant metadata.</formcont>
+					<filedec>no compression applied</filedec>
+					<transize>0.145</transize>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>https://www.sciencebase.gov/catalog/item/XXX</networkr>
+								<networkr>https://www.sciencebase.gov/catalog/file/get/XXX</networkr>
+								<networkr>https://www.sciencebase.gov/catalog/file/get/XXX</networkr>
+								<networkr>https://doi.org/10.5066/XXX</networkr>
+							</networka>
+						</computer>
+						<accinstr>The first link is to the page containing the data. The second is a direct link to download all contents of the data webpage as a zipped file. The third link is a direct link to download a zipped file with the data and metadata. And the final link is to the publication landing page.</accinstr>
+					</onlinopt>
+				</digtopt>
 			</digform>
 			<fees>None</fees>
 		</stdorder>
@@ -394,22 +428,22 @@ The shoreline is produced through a combination of the DEM and the shoreline poi
 		<metd>20171215</metd>
 		<metc>
 			<cntinfo>
-					<cntperp>
-							<cntper>Emily Sturdivant</cntper>
-							<cntorg>U.S. Geological Survey</cntorg>
-					</cntperp>
-					<cntpos>GIS Specialist</cntpos>
-					<cntaddr>
-							<addrtype>mailing and physical</addrtype>
-							<address>384 Woods Hole Road</address>
-							<city>Woods Hole</city>
-							<state>MA</state>
-							<postal>02543-1598</postal>
-							<country>USA</country>
-					</cntaddr>
-					<cntvoice>(508) 548-8700 x2230</cntvoice>
-					<cntfax>(508) 457-2310</cntfax>
-					<cntemail>esturdivant@usgs.gov</cntemail>
+				<cntperp>
+					<cntper>Emily Sturdivant</cntper>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>384 Woods Hole Road</address>
+					<city>Woods Hole</city>
+					<state>MA</state>
+					<postal>02543-1598</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(508) 548-8700 x2230</cntvoice>
+				<cntfax>(508) 457-2310</cntfax>
+				<cntemail>esturdivant@usgs.gov</cntemail>
 			</cntinfo>
 		</metc>
 		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>

@@ -20,21 +20,23 @@
 				</pubinfo>
 				<onlink>XXX</onlink>
 				<lworkcit>
-					<citeinfo>
-						<origin>Emily J. Sturdivant</origin>
-						<origin>Sara L. Zeigler</origin>
-						<origin>Benjamin T. Gutierrez</origin>
-						<pubdate>2018</pubdate>
-						<title>Barrier island geomorphology and shorebird habitat metrics – Fire Island, NY, 2010–2014</title>
-						<serinfo>
-							<sername>Data Release</sername>
-							<issue>XXX</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
-							<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
-						</pubinfo>
-						<onlink>XXX</onlink>
+          <citeinfo>
+            <origin>Emily J. Sturdivant</origin>
+            <origin>Sara L. Zeigler</origin>
+            <origin>Benjamin T. Gutierrez</origin>
+            <origin>Kathryn M. Weber</origin>
+            <pubdate>2018</pubdate>
+            <title>Barrier island geomorphology and shorebird habitat metrics at four sites in New York, New Jersey, and Virginia, 2010–2014</title>
+            <serinfo>
+              <sername>Data Release</sername>
+              <issue>XXX</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+              <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+            </pubinfo>
+            <othercit>Suggested citation: Sturdivant, E.J., Zeigler, S.L., Gutierrez, B.J., and Weber, K.M., 2018, Barrier island geomorphology and shorebird habitat metrics at four sites in New York, New Jersey, and Virginia, 2010–2014: U.S. Geological Survey data release, https://doi.org/10.5066/XXXXX.</othercit>
+            <onlink>XXX</onlink>
 					</citeinfo>
 				</lworkcit>
 			</citeinfo>
@@ -96,13 +98,15 @@
 				<themekey>oceans</themekey>
 				<themekey>elevation</themekey>
 				<themekey>environment</themekey>
-				<themekey>oceans and estuaries</themekey>
-				<themekey>oceans and coastal</themekey>
-				<themekey>geoscientific information</themekey>
+        <themekey>biota</themekey>
+        <themekey>geoscientificInformation</themekey>
 			</theme>
 			<theme>
 					<themekt>USGS Thesaurus</themekt>
 					<themekey>geospatial datasets</themekey>
+	        <themekey>geospatial analysis</themekey>
+	        <themekey>coastal processes</themekey>
+	        <themekey>geomorphology</themekey>
 			</theme>
 			<place>
 				<placekt>General</placekt>
@@ -179,7 +183,7 @@
 					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
 					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
 				</pubinfo>
-				<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+				<onlink>https://pubs.usgs.gov/of/2010/1119/</onlink>
 			</citeinfo>
 		</crossref>
 		<crossref>
@@ -197,7 +201,7 @@
 					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
 					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
 				</pubinfo>
-				<onlink>http://pubs.usgs.gov/of/2005/1027/</onlink>
+				<onlink>https://pubs.usgs.gov/of/2005/1027/</onlink>
 			</citeinfo>
 		</crossref>
 		<crossref>
@@ -252,7 +256,7 @@
 							<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
 							<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
 						</pubinfo>
-						<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+						<onlink>https://pubs.usgs.gov/of/2010/1119/</onlink>
 						<lworkcit>
 							<citeinfo>
 								<origin>Emily A. Himmelstoss</origin>
@@ -270,7 +274,7 @@
 									<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
 									<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
 								</pubinfo>
-								<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+								<onlink>https://pubs.usgs.gov/of/2010/1119/</onlink>
 							</citeinfo>
 						</lworkcit>
 					</citeinfo>
@@ -1390,7 +1394,7 @@ To calculate the values, the data is passed between pandas dataframe format and 
 		<techpreq>These data are available as a generic ASCII formatted data file. The user must have a software program capable of reading the comma-delimited data file. </techpreq>
 	</distinfo>
 	<metainfo>
-		<metd>20171215</metd>
+		<metd>20180604</metd>
 		<metc>
 			<cntinfo>
 					<cntperp>

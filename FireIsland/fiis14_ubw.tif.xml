@@ -20,31 +20,31 @@
 				</pubinfo>
 				<onlink>XXX</onlink>
 				<lworkcit>
-					<citeinfo>
-						<origin>Emily J. Sturdivant</origin>
-						<origin>Sara L. Zeigler</origin>
-						<origin>Benjamin T. Gutierrez</origin>
-						<pubdate>2018</pubdate>
-						<title>Barrier island geomorphology and shorebird habitat metrics – Fire Island, NY, 2010–2014</title>
-						<serinfo>
-							<sername>Data Release</sername>
-							<issue>XXX</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
-							<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
-						</pubinfo>
-						<onlink>XXX</onlink>
+          <citeinfo>
+            <origin>Emily J. Sturdivant</origin>
+            <origin>Sara L. Zeigler</origin>
+            <origin>Benjamin T. Gutierrez</origin>
+            <origin>Kathryn M. Weber</origin>
+            <pubdate>2018</pubdate>
+            <title>Barrier island geomorphology and shorebird habitat metrics at four sites in New York, New Jersey, and Virginia, 2010–2014</title>
+            <serinfo>
+              <sername>Data Release</sername>
+              <issue>XXX</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+              <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+            </pubinfo>
+            <othercit>Suggested citation: Sturdivant, E.J., Zeigler, S.L., Gutierrez, B.J., and Weber, K.M., 2018, Barrier island geomorphology and shorebird habitat metrics at four sites in New York, New Jersey, and Virginia, 2010–2014: U.S. Geological Survey data release, https://doi.org/10.5066/XXXXX.</othercit>
+            <onlink>XXX</onlink>
 					</citeinfo>
 				</lworkcit>
 			</citeinfo>
 		</citation>
 		<descript>
-			<abstract>
-				Understanding the potential effects of sea level rise (SLR) on coastal landforms and the species and habitats they support will be critical for crafting approaches that balance the needs of both humans and native species. Given this increasing need to develop the capability to forecast sea-level rise impacts on barrier islands in the near- and long-term, we are developing Bayesian networks to evaluate and to forecast the cascading effects of sea level rise on shoreline change, barrier island state, and piping plover habitat availability. We use publicly available data products, i.e. lidar, orthophotography, and geomorphic feature sets derived from those, to extract metrics of barrier island characteristics at consistent sampling distances for incorporation into these models and into the training data used to parameterize these models. This data release contains the resulting metrics of barrier island geomorphology and spatial data layers of habitat characteristics that are input to Bayesian networks for piping plover habitat availability and barrier island geomorphology.  These datasets and models are being developed at a range of coastal sites along the northeastern coast of the United States.  This work is one component of a larger research and management program that seeks to understand and sustain ecological value, ecosystem services, and habitat suitability of beaches in the face of storm impacts, climate change, and sea-level rise. These data were produced for the barrier islands corresponding to the Fire Island National Seashore, NY.
+			<abstract>Understanding the potential effects of sea level rise (SLR) on coastal landforms and the species and habitats they support will be critical for crafting approaches that balance the needs of both humans and native species. Given this increasing need to develop the capability to forecast sea-level rise impacts on barrier islands in the near- and long-term, we are developing Bayesian networks to evaluate and to forecast the cascading effects of sea level rise on shoreline change, barrier island state, and piping plover habitat availability. We use publicly available data products, i.e. lidar, orthophotography, and geomorphic feature sets derived from those, to extract metrics of barrier island characteristics at consistent sampling distances for incorporation into these models and into the training data used to parameterize these models. This data release contains the resulting metrics of barrier island geomorphology and spatial data layers of habitat characteristics that are input to Bayesian networks for piping plover habitat availability and barrier island geomorphology.  These datasets and models are being developed at a range of coastal sites along the northeastern coast of the United States.  This work is one component of a larger research and management program that seeks to understand and sustain ecological value, ecosystem services, and habitat suitability of beaches in the face of storm impacts, climate change, and sea-level rise. These data were produced for the barrier islands corresponding to the Fire Island National Seashore, NY.
 			</abstract>
-			<purpose>
-				The upper beach width was calculated for each transect (see larger work) for use in geomorphology modeling. It was converted from vector to raster format for use in modeling shorebird habitat suitability.
+			<purpose>The upper beach width was calculated for each transect (see larger work) for use in geomorphology modeling. It was converted from vector to raster format for use in modeling shorebird habitat suitability.
 			</purpose>
 		</descript>
 		<timeperd>
@@ -96,13 +96,15 @@
 				<themekey>oceans</themekey>
 				<themekey>elevation</themekey>
 				<themekey>environment</themekey>
-				<themekey>oceans and estuaries</themekey>
-				<themekey>oceans and coastal</themekey>
-				<themekey>geoscientific information</themekey>
+				<themekey>biota</themekey>
+				<themekey>geoscientificInformation</themekey>
 			</theme>
 			<theme>
 					<themekt>USGS Thesaurus</themekt>
 					<themekey>geospatial datasets</themekey>
+	        <themekey>geospatial analysis</themekey>
+	        <themekey>coastal processes</themekey>
+	        <themekey>geomorphology</themekey>
 			</theme>
 			<place>
 				<placekt>General</placekt>
@@ -179,7 +181,7 @@
 					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
 					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
 				</pubinfo>
-				<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+				<onlink>https://pubs.usgs.gov/of/2010/1119</onlink>
 			</citeinfo>
 		</crossref>
 		<crossref>
@@ -197,7 +199,7 @@
 					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
 					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
 				</pubinfo>
-				<onlink>http://pubs.usgs.gov/of/2005/1027/</onlink>
+				<onlink>https://pubs.usgs.gov/of/2005/1027</onlink>
 			</citeinfo>
 		</crossref>
 	</idinfo>
@@ -233,7 +235,7 @@ The beach width values were spotted checked while verifying the reliability of t
 							<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
 							<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
 						</pubinfo>
-						<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+						<onlink>https://pubs.usgs.gov/of/2010/1119/</onlink>
 						<lworkcit>
 							<citeinfo>
 								<origin>Emily A. Himmelstoss</origin>
@@ -251,7 +253,7 @@ The beach width values were spotted checked while verifying the reliability of t
 									<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
 									<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
 								</pubinfo>
-								<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+								<onlink>https://pubs.usgs.gov/of/2010/1119/</onlink>
 							</citeinfo>
 						</lworkcit>
 					</citeinfo>
@@ -517,14 +519,14 @@ A transect ID raster was created from the same transect file used to produce the
 		</stdorder>
 	</distinfo>
 	<metainfo>
-		<metd>20171215</metd>
+		<metd>20180604</metd>
 		<metc>
 			<cntinfo>
 					<cntperp>
 							<cntper>Emily Sturdivant</cntper>
 							<cntorg>U.S. Geological Survey</cntorg>
 					</cntperp>
-					<cntpos>GIS Specialist</cntpos>
+					<cntpos>Geographer</cntpos>
 					<cntaddr>
 							<addrtype>mailing and physical</addrtype>
 							<address>384 Woods Hole Road</address>

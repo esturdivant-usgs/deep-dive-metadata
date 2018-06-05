@@ -179,7 +179,7 @@
 					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
 					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
 				</pubinfo>
-				<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+				<onlink>https://pubs.usgs.gov/of/2010/1119/</onlink>
 			</citeinfo>
 		</crossref>
 		<crossref>
@@ -197,7 +197,7 @@
 					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
 					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
 				</pubinfo>
-				<onlink>http://pubs.usgs.gov/of/2005/1027/</onlink>
+				<onlink>https://pubs.usgs.gov/of/2005/1027/</onlink>
 			</citeinfo>
 		</crossref>
 		<crossref>
@@ -252,7 +252,7 @@
 							<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
 							<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
 						</pubinfo>
-						<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+						<onlink>https://pubs.usgs.gov/of/2010/1119/</onlink>
 						<lworkcit>
 							<citeinfo>
 								<origin>Emily A. Himmelstoss</origin>
@@ -270,7 +270,7 @@
 									<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
 									<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
 								</pubinfo>
-								<onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+								<onlink>https://pubs.usgs.gov/of/2010/1119/</onlink>
 							</citeinfo>
 						</lworkcit>
 					</citeinfo>
@@ -431,7 +431,7 @@ Barrier Island Width (WidthLand) was calculated as the above-water distance betw
 			</procstep>
 			<procstep>
 				<procdesc>
-Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (http://code.usgs.gov/XXX).
+Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (https://code.usgs.gov/XXX).
 
 Nourishment, Construction, Development
 We manually assigned coded values for the attributes Nourishment, Construction, and Development by comparing the transect positions to ancillary datasets in a GIS. These datasets included the inventory of habitat modification (Rice 2015), available aerial imagery, and the development layer included in this data release. See the associated Methods OFR (Zeigler and others 2018) for details and example figures.
@@ -460,7 +460,7 @@ We manually assigned coded values for the attributes Nourishment, Construction, 
 			</procstep>
 			<procstep>
 				<procdesc>
-					Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (http://code.usgs.gov/XXX).
+					Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (https://code.usgs.gov/XXX).
 
 The point dataset represents 5 m sampling of the land along each shore-normal transect (described in transects file in larger work and in Zeigler and others 2018). The 5-m point file was created from the supplemented NASC transects as follows: (1) Manually shorten overlapping transects to the first point of intersection. When a transect overlaps with a supplementary transect, shorten the supplementary transect to the intersection point.  (2) Clip the transects to the shoreline polygon of the barrier island, retaining only those portions of the transects that represent land. (3) Create a point along each transect every 5 m starting from the ocean-side shoreline.
 				</procdesc>
@@ -488,7 +488,7 @@ The point dataset represents 5 m sampling of the land along each shore-normal tr
 			</procstep>
 			<procstep>
 				<procdesc>
-Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (http://code.usgs.gov/XXX).
+Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (https://code.usgs.gov/XXX).
 
 Point identifier
 We populate the 5-m points with a numerical identifier (SplitSort) of the 5-m data sampling points at a particular study site, sorted by order along shoreline and by distance from oceanside. SplitSort values are populated by sorting the points by sort_ID and Dist_Seg (see below).

@@ -22,8 +22,9 @@
             <origin>Emily J. Sturdivant</origin>
             <origin>Sara L. Zeigler</origin>
             <origin>Benjamin T. Gutierrez</origin>
+            <origin>Kathryn M. Weber</origin>
             <pubdate>2018</pubdate>
-            <title>Barrier island geomorphology and shorebird habitat metrics – Fire Island, NY, 2010–2014</title>
+            <title>Barrier island geomorphology and shorebird habitat metrics at four sites in New York, New Jersey, and Virginia, 2010–2014</title>
             <serinfo>
               <sername>Data Release</sername>
               <issue>XXX</issue>
@@ -32,6 +33,7 @@
               <pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
               <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
             </pubinfo>
+            <othercit>Suggested citation: Sturdivant, E.J., Zeigler, S.L., Gutierrez, B.J., and Weber, K.M., 2018, Barrier island geomorphology and shorebird habitat metrics at four sites in New York, New Jersey, and Virginia, 2010–2014: U.S. Geological Survey data release, https://doi.org/10.5066/XXXXX.</othercit>
             <onlink>XXX</onlink>
           </citeinfo>
         </lworkcit>
@@ -87,29 +89,31 @@
         <themekey>Fire Island National Seashore</themekey>
       </theme>
       <theme>
-        <themekt>ISO 19115 Topic Category</themekt>
-        <themekey>oceans</themekey>
-        <themekey>elevation</themekey>
-        <themekey>environment</themekey>
-        <themekey>oceans and estuaries</themekey>
-        <themekey>oceans and coastal</themekey>
-        <themekey>geoscientific information</themekey>
-      </theme>
-      <theme>
-        <themekt>USGS Thesaurus</themekt>
-        <themekey>geospatial datasets</themekey>
-      </theme>
-      <place>
-        <placekt>General</placekt>
-        <placekey>New York</placekey>
-        <placekey>NY</placekey>
-        <placekey>Long Island</placekey>
-        <placekey>Fire Island</placekey>
-        <placekey>North America</placekey>
-        <placekey>United States</placekey>
-        <placekey>USA</placekey>
-        <placekey>Atlantic Ocean</placekey>
-      </place>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>oceans</themekey>
+				<themekey>elevation</themekey>
+				<themekey>environment</themekey>
+				<themekey>biota</themekey>
+				<themekey>geoscientificInformation</themekey>
+			</theme>
+			<theme>
+					<themekt>USGS Thesaurus</themekt>
+					<themekey>geospatial datasets</themekey>
+	        <themekey>geospatial analysis</themekey>
+	        <themekey>coastal processes</themekey>
+	        <themekey>geomorphology</themekey>
+			</theme>
+			<place>
+				<placekt>General</placekt>
+				<placekey>New York</placekey>
+				<placekey>NY</placekey>
+				<placekey>Long Island</placekey>
+				<placekey>Fire Island</placekey>
+				<placekey>North America</placekey>
+				<placekey>United States</placekey>
+				<placekey>USA</placekey>
+				<placekey>Atlantic Ocean</placekey>
+			</place>
     </keywords>
     <accconst>none</accconst>
     <useconst>Public domain data from the U.S. Government are freely redistributable with proper metadata and source attribution. Please recognize the U.S. Geological Survey (USGS) as the source of this information.</useconst>

@@ -20,21 +20,23 @@
 				</pubinfo>
 				<onlink>XXX</onlink>
 				<lworkcit>
-					<citeinfo>
-						<origin>Emily J. Sturdivant</origin>
-						<origin>Sara L. Zeigler</origin>
-						<origin>Benjamin T. Gutierrez</origin>
-						<pubdate>2018</pubdate>
-						<title>Barrier island geomorphology and shorebird habitat metrics – Fire Island, NY, 2010–2014</title>
-						<serinfo>
-							<sername>Data Release</sername>
-							<issue>XXX</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
-							<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
-						</pubinfo>
-						<onlink>XXX</onlink>
+          <citeinfo>
+            <origin>Emily J. Sturdivant</origin>
+            <origin>Sara L. Zeigler</origin>
+            <origin>Benjamin T. Gutierrez</origin>
+            <origin>Kathryn M. Weber</origin>
+            <pubdate>2018</pubdate>
+            <title>Barrier island geomorphology and shorebird habitat metrics at four sites in New York, New Jersey, and Virginia, 2010–2014</title>
+            <serinfo>
+              <sername>Data Release</sername>
+              <issue>XXX</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+              <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+            </pubinfo>
+            <othercit>Suggested citation: Sturdivant, E.J., Zeigler, S.L., Gutierrez, B.J., and Weber, K.M., 2018, Barrier island geomorphology and shorebird habitat metrics at four sites in New York, New Jersey, and Virginia, 2010–2014: U.S. Geological Survey data release, https://doi.org/10.5066/XXXXX.</othercit>
+            <onlink>XXX</onlink>
 					</citeinfo>
 				</lworkcit>
 			</citeinfo>
@@ -96,13 +98,15 @@
 				<themekey>oceans</themekey>
 				<themekey>elevation</themekey>
 				<themekey>environment</themekey>
-				<themekey>oceans and estuaries</themekey>
-				<themekey>oceans and coastal</themekey>
-				<themekey>geoscientific information</themekey>
+				<themekey>biota</themekey>
+				<themekey>geoscientificInformation</themekey>
 			</theme>
 			<theme>
 					<themekt>USGS Thesaurus</themekt>
 					<themekey>geospatial datasets</themekey>
+					<themekey>geospatial analysis</themekey>
+					<themekey>coastal processes</themekey>
+					<themekey>geomorphology</themekey>
 			</theme>
 			<place>
 				<placekt>General</placekt>
@@ -177,7 +181,7 @@
 					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
 					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
 				</pubinfo>
-				<onlink>http://pubs.usgs.gov/of/2005/1027/</onlink>
+				<onlink>https://pubs.usgs.gov/of/2005/1027/</onlink>
 			</citeinfo>
 		</crossref>
 	</idinfo>
@@ -235,7 +239,7 @@
 			<srccontr>MHW shoreline and dune positions</srccontr>
 		</srcinfo>
 			<procstep>
-				<procdesc>Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (https://code.usgs.gov/xxxx).
+				<procdesc>Full methods are provided in the associated Methods OFR (Zeigler and others 2018). For the detailed documentation of the processing, see the source code (https://code.usgs.gov/usgs/whcmsc-bi-transect-extractor).
 
 The shoreline is produced through a combination of the DEM and the shoreline points in the geomorphic features. First, we derive MTL and MHW contour polygons from the DEM. Those polygons are combined to produce the full shoreline, which is considered to fall at MHW on the oceanside and MTL on the bayside (to include partially submerged wetland). Finally, the output full shoreline polygon is snapped to the shoreline points from the geomorphic features dataset anywhere the two datasets don't already match and as long as as they are within 25 m of each other.
 </procdesc>
